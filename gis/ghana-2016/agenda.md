@@ -1,5 +1,5 @@
-### **GIS FUNDAMENTALS TRAINING COURSE**
-### **The use case of animal diseases monitoring | Accra, Ghana, 10-14 October 2016**
+### **GIS FUNDAMENTALS TRAINING COURSE | AGENDA**
+### **The use case of animal diseases monitoring, Accra, Ghana, 10-14 October 2016**
 ___
 
 ## **DAY 1**
