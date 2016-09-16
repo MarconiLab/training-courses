@@ -1,0 +1,33 @@
+# tmp files
+*.log
+*~
+
+# local files
+node_modules
+bower_components
+
+# ide files
+*.iml
+.idea
+.project
+
+# vim files
+.*.swp
+
+# builds ignore
+analytical.js
+global-24hrs.js
+
+# mac
+.DS_Store
+
+# python files
+*.pyc
+
+# ctag
+.tags
+
+# files for gh-pages and grunt-contrib-jasmine
+.grunt
+
+/.vs
