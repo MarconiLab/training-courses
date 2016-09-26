@@ -11,4 +11,4 @@ ___
   * [Map projections explained by Carlos Furuti](http://www.progonos.com/furuti/MapProj/Normal/TOC/cartTOC.html)
   * [Comparing Map projections](http://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e)
 
-TO BE CONTINUED
+TO BE CONTINUED 
