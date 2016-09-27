@@ -1,55 +1,55 @@
-### **GIS FUNDAMENTALS TRAINING COURSE | AGENDA**
-### **The use case of animal diseases monitoring, Accra, Ghana, 10-14 October 2016**
-___
+> **GIS FUNDAMENTALS TRAINING COURSE | AGENDA**
 
-## **DAY 1**
-**[INTRODUCTION]**
+**The use case of animal diseases monitoring, Accra, Ghana, 10-14 October 2016**
+
+## [Day 1](day1.md)
+### INTRODUCTION
   * Course objectives [lectures & practical classes]
   * Course resources and materials
 
-**[FUNDAMENTAL GIS CONCEPTS]**
+### FUNDAMENTAL GIS CONCEPTS
   * Geographical data representation: vector, raster (image)
   * Layers
   * Coordinate Reference System (CRS)
   * Notion of scale
   * Different maps for different purposes: thematic mapping, Digital Elevation Models, topographic, ...
 
-**[QGIS]**
+### QGIS
   * Set up
   * Opening and overlaying Layers
   * Handling CRS
 
-## **DAY 2**
+## [Day 2](day2.md)
   * Importing data from Excel files
   * Handling QGIS plugins
   * Data attributes management
   * Creating buffers (buffer zones)
   * Merging (dissolving features)
 
-## **DAY 3**
+## [Day 3](day3.md)
   * Collecting geographical coordinates through mobile phone
   * Editing Layers (add, update, delete features)
   * Generating "fishnet" grid layers
   * Aggregating points in polygons: counts, sums of cases/deaths per administrative boundaries, grid cells)
   * Basic thematic mapping
 
-## **DAY 4**
+## [Day 4](day4.md)
   * Thematic mapping (continued)
   * Time series animation
 
-**[ONLINE MAPPING WITH CARTO]**
+### ONLINE MAPPING WITH CARTO
   * Intro
   * Data upload
   * Styling map
 
-## **DAY 5**
+## [Day 5](day5.md)
   * Time series animation
   * Map dissemination
 
-**[QGIS]**
+### QGIS
   * [Optional] Composing map layout [title, scales, legend, ...]
   * [Optional] Mapping participants own datasets
 
-**[COURSE WRAPUP]**
+### COURSE WRAPUP
   * Finalizing exercises
   * Uncovered topics and further resources
