@@ -15,13 +15,13 @@ FUNDAMENTAL GIS CONCEPTS
   * Different maps for different purposes: thematic mapping, Digital Elevation Models, topographic, ...
 
 QGIS
-  * Set up
+  * [Set up](qgis-setup.md)
   * Opening and overlaying Layers
   * Handling CRS
 
 ## [Day 2](day2.md)
   * Importing data from Excel files
-  * Handling QGIS plugins
+  * [Handling QGIS plugins](qgis-setup.md)
   * Data attributes management
   * Creating buffers (buffer zones)
   * Merging (dissolving features)
