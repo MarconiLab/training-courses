@@ -3,18 +3,18 @@
 **The use case of animal diseases monitoring, Accra, Ghana, 10-14 October 2016**
 
 ## [Day 1](day1.md)
-### INTRODUCTION
+INTRODUCTION
   * Course objectives [lectures & practical classes]
   * Course resources and materials
 
-### FUNDAMENTAL GIS CONCEPTS
+FUNDAMENTAL GIS CONCEPTS
   * Geographical data representation: vector, raster (image)
   * Layers
   * Coordinate Reference System (CRS)
   * Notion of scale
   * Different maps for different purposes: thematic mapping, Digital Elevation Models, topographic, ...
 
-### QGIS
+QGIS
   * Set up
   * Opening and overlaying Layers
   * Handling CRS
@@ -37,7 +37,7 @@
   * Thematic mapping (continued)
   * Time series animation
 
-### ONLINE MAPPING WITH CARTO
+ONLINE MAPPING WITH CARTO
   * Intro
   * Data upload
   * Styling map
@@ -46,10 +46,10 @@
   * Time series animation
   * Map dissemination
 
-### QGIS
+QGIS
   * [Optional] Composing map layout [title, scales, legend, ...]
   * [Optional] Mapping participants own datasets
 
-### COURSE WRAPUP
+COURSE WRAPUP
   * Finalizing exercises
   * Uncovered topics and further resources
