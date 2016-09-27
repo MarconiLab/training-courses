@@ -9,7 +9,7 @@ INTRODUCTION
 
 FUNDAMENTAL GIS CONCEPTS
   * Geographical data representation: vector, raster (image)
-  * Layers
+  * Layers & Geometry types (points, lines & polygons)
   * Coordinate Reference System (CRS)
   * Notion of scale
   * Different maps for different purposes: thematic mapping, Digital Elevation Models, topographic, ...
