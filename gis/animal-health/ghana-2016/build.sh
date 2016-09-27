@@ -2,4 +2,4 @@
 
 # copy files from master course
 cp ../master-course/src/resources.md ./src/
-echo "Files copied!"
+echo "Source files (.md) files copied successfully!"
