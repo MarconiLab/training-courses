@@ -5,7 +5,7 @@
 ## [Day 1](day1.md)
 INTRODUCTION
   * Course objectives [lectures & practical classes]
-  * Course resources and materials
+  * [Course resources and materials](resources.md)
 
 FUNDAMENTAL GIS CONCEPTS
   * Geographical data representation: vector, raster (image)
