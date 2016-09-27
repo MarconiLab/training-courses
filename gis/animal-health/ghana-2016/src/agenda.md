@@ -4,7 +4,7 @@
 
 ## [Day 1](day1.md)
 INTRODUCTION
-  * Course objectives [lectures & practical classes]
+  * Course objectives & setup [lectures & practical classes]
   * [Course resources and materials](resources.md)
 
 FUNDAMENTAL GIS CONCEPTS
