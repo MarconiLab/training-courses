@@ -1,4 +1,4 @@
-> **Resources**
+< **[Back to agenda](agenda.md)**
 
 ## QGIS OFFICIAL DOCUMENTATION
   * [Gentle GIS Introduction](http://docs.qgis.org/2.14/en/docs/gentle_gis_introduction/)
