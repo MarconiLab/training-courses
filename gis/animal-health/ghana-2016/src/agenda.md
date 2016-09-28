@@ -20,7 +20,7 @@ QGIS
   * [Handling Coordinate Reference Systems (CRS)](handling-crs.md)
 
 ## [Day 2](day2.md)
-  * Importing data from Excel files
+  * [Importing data from Excel files](import-excel.md)
   * [Handling QGIS plugins](qgis-setup.md)
   * Data attributes management
   * Creating buffers (buffer zones)
