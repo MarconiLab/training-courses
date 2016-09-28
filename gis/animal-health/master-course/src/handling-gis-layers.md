@@ -123,14 +123,24 @@ Vector ▸ Spatial Query ▸ Spatial Query
 Then click "Apply"
 ```
 
-### 5. Changing order of layers
+### 6. Accessing layer properties
 ```
 [In Layers Panel]
 Simply drag and drop layers you want to move up or down in layers stack
 ```
 
+### 5. Changing order of layers
+```
+[In Layers Panel]
+Click right on layer of interest ▸ Properties
+```
+then, on left side of the properties window, you will find a bunch of choice/option, such as:
+* General
+* Style
+* Labels
+* ...
 
-
+We will only focus on "Style" properties for now.
 
 
 
