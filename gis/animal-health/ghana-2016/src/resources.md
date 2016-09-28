@@ -5,7 +5,6 @@
   * [QGIS Training manual](http://docs.qgis.org/2.14/en/docs/training_manual/)
   * [QGIS User Guide](http://docs.qgis.org/2.14/en/docs/user_manual/)
 
-
 ## COORDINATE REFERENCE SYSTEM & MAP PROJECTIONS
 * [Notion of map scale](https://en.wikipedia.org/wiki/Scale_(map))
 * [Map projections explained by Carlos Furuti](http://www.progonos.com/furuti/MapProj/Normal/TOC/cartTOC.html)
@@ -19,3 +18,12 @@
 ## VARIOUS TYPE OF MAPS
 * Maps for different purposes: [topographic](https://en.wikipedia.org/wiki/Topographic_map), [choropleth (thematic)](https://bl.ocks.org/mbostock/4060606), [thematic-bubble-map](https://bost.ocks.org/mike/bubble-map/), [heatmap](https://carto.com/docs/tutorials/heatmap/), ...
 * [Digital Elevation Model (DEM)](https://en.wikipedia.org/wiki/Digital_elevation_model)
+
+## GEOGRAPHICAL DATA SOURCES
+* [http://www.naturalearthdata.com/](http://www.naturalearthdata.com/)
+* [http://www.gadm.org/](http://www.gadm.org/)
+
+
+## GLOSSARY
+* [QGIS User Interface Overview: Top Toolbars, Map Canvas, Layers list, Status Bar and side toolbar](https://docs.qgis.org/2.2/en/docs/training_manual/introduction/overview.html)
+* [Shapefile](https://en.wikipedia.org/wiki/Shapefile)
