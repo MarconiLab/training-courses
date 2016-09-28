@@ -52,7 +52,7 @@ Vector ▸ Geoprocessing Tools ▸ Buffer(s)...
 
 Specify the following:
 
-![Buffers](img/buffer-10km.png)
+![Buffers](img/buffers-10km.png)
 
 The dissolve checkbox allows to create the union of individual buffers created.
 
