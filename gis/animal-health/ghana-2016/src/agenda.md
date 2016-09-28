@@ -22,7 +22,7 @@ QGIS
 ## [Day 2](day2.md)
   * [Importing data from Excel files](importing-excel.md)
   * [Handling QGIS plugins](qgis-setup.md)
-  * Data attributes management
+  * [Managing data attributes](managing-data-attributes.md)
   * Creating buffers (buffer zones)
   * Merging (dissolving features)
 
