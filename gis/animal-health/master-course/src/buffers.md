@@ -12,7 +12,7 @@ data/bluetongue_2014_2015_IT
 ```
 ## Exercise outline & memos
 
-### 1. Creating zones (buffers)
+### Creating zones (buffers)
 
 1. Open a subset of "bluetongue_2014_2015.shp" recently created including only cases in Italy: 
 
