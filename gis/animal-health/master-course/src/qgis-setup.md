@@ -16,5 +16,4 @@ Plugins ▸ Manage and Install Plugins ...
 ```
 
 During this course, the following plugins will be installed:
-* tbc
-* tbc
+* Spatial Query Plugin
