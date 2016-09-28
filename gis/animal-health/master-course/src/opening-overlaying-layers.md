@@ -43,4 +43,4 @@ data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp
 data/ne_110m_populated_places/ne_110m_populated_places.shp
 data/ne_110m_rivers_lake_centerlines/ne_110m_rivers_lake_centerlines.shp
 ```
-Warning: *note that what we called a shapefile is actually a combination of files with the following extensions: .shx, .shp, .dbf, ... When we want to open a shapefile in GIS software, we are opening the .shp one.*
+Warning: *note that what we called a shapefile is actually a combination of files with the following extensions: .shx, .shp, .dbf, ... When we want to open a shapefile in GIS software, we are opening the .shp one.* [See wikipedia entry for shapefile](https://en.wikipedia.org/wiki/Shapefile).
