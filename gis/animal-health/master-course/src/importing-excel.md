@@ -4,6 +4,7 @@
 By the end of this module, you will know how to:
 * convert Excel file to csv (comma separated value) files
 * import/convert csv file with lat, lon attributes into GIS layer
+* overlay layer created over GoogleMap or OpenStreeMap layers
 
 ## Data
 Data to be used in this module can be found in the following folders:
@@ -47,6 +48,8 @@ Finally, save the layer as shapefile: click right on layer and "Save As"
 ```
 
 Congrats, you have created your first GIS layer / shapefile from scratch !
+
+### 3. Overlaying layer created over GoogleMap or OpenStreeMap layers
 
 
 
