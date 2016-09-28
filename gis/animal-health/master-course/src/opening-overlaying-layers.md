@@ -33,9 +33,14 @@ Option 2:
 [In QGIS side toolbar] 
 Add Vector Layer
 ```
-*Tips: Function of icons will appear when hovering over it*
+Hint: *function of icons will appear when hovering over it*
 
 [Check out QGIS User Guide for more information](http://docs.qgis.org/2.14/en/docs/training_manual/introduction/preparation.html)
 
-
-
+Shapefiles to be open in this exercise are:
+```
+data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp
+data/ne_110m_populated_places/ne_110m_populated_places.shp
+data/ne_110m_rivers_lake_centerlines/ne_110m_rivers_lake_centerlines.shp
+```
+Warning: *note that what we called a shapefile is actually a combination of files with the following extensions: .shx, .shp, .dbf, ... When we want to open a shapefile in GIS software, we are opening the .shp one.*
