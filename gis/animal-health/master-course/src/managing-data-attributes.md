@@ -24,3 +24,7 @@ Open: data/managing-layer-attributes/managing-layer-attributes.shp
 [In QGIS top menu] 
 Vector ▸ Table Manager ▸ Table manager
 ```
+
+You will get the following window/panel:
+
+![Table manager](img/table-manager.png)
