@@ -28,3 +28,9 @@ Vector ▸ Table Manager ▸ Table manager
 You will get the following window/panel:
 
 ![Table manager](img/table-manager.png)
+
+```
+Select a field/attribute and apply action of interest: move up, down, rename, clone
+```
+
+Warning: after modification you can either save (overwrite) the original layer or save it as another name.
