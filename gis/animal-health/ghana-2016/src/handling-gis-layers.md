@@ -109,7 +109,8 @@ then in [input text box], write:
 #### 4.2 Select by spatial query
 
 ```
-Install "Spatial Query Plugin" if not already installed. If/when installed the plugin needs to be activated (checkbox on).
+Install "Spatial Query Plugin" if not already installed. If/when installed the plugin needs to be
+activated (checkbox on).
 
 Select a country, let's say "Brazil" 
 
