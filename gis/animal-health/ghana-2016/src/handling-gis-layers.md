@@ -11,14 +11,14 @@ By the end of this module, you will know how to:
 * style map features (basic)
 * save open layers, styling in a QGIS project
 
-## Set up
+## Data
 Data to be used in this module can be found in the following folders:
 ```
 data/ne_110m_admin_0_countries/
 data/ne_110m_populated_places/
 data/ne_110m_rivers_lake_centerlines/
 ```
-## Exercise outline
+## Exercise outline & memos
 
 ### 1. Opening a shapefile
 
@@ -46,7 +46,7 @@ data/ne_110m_rivers_lake_centerlines/ne_110m_rivers_lake_centerlines.shp
 Warning: *note that what we called a shapefile is actually a combination of files with the following extensions: .shx, .shp, .dbf, ... When we want to open a shapefile in GIS software, we are opening the .shp one.* [See wikipedia entry for shapefile](https://en.wikipedia.org/wiki/Shapefile).
 
 ### 2. Showing attribute table
-A GIS layer has always two facets, representations: geographical (the map istself) and attribute table (spreadsheet) representations.
+A GIS layer has always two facets, representations: geographical (the map istself) and attribute table (tabular) representations.
 
 In the attribute table, each row corresponds to a map feature (a point, a line or a polygon) and columns attributes recorded for this feature (population, type of disease, ...).
 
@@ -108,6 +108,50 @@ then in [input text box], write:
 
 #### 4.2 Select by spatial query
 
+```
+Install "Spatial Query Plugin" if not already installed. If/when installed the plugin needs to be activated (checkbox on).
 
+Select a country, let's say "Brazil" 
 
+[In QGIS top menu] 
+Vector ▸ Spatial Query ▸ Spatial Query
 
+[In "Select source features from" dropdown], choose: "ne_110m_populated_places"
+[In "Where the features" dropdown], choose: "Within"
+[In "Reference features of"], choose: "ne_110m_admin_0_countries" (check selected geometries checkbox)
+
+Then click "Apply"
+```
+
+### 6. Accessing layer properties
+```
+[In Layers Panel]
+Simply drag and drop layers you want to move up or down in layers stack
+```
+
+### 5. Changing order of layers
+```
+[In Layers Panel]
+Click right on layer of interest ▸ Properties
+```
+then, on left side of the properties window, you will find a bunch of choice/option, such as:
+* General
+* Style
+* Labels
+* ...
+
+We will only focus on "Style" properties for now.
+
+### 6. Styling map features
+```
+Open layer properties
+Click "Style" option and play around with colours to your liking;
+```
+
+### 7. Saving open layers and styles as QGIS project
+
+To save your QGIS environment/project:
+```
+[In QGIS top menu] 
+Project ▸ Save As...
+```
