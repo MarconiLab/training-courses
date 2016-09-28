@@ -26,3 +26,12 @@ Play around with various CRS, apply and see the variety of world representation 
 
 Notice as well that in the status bar (bottom part of the screen), coordinates are not anymore in lon, lat but in x,y meters.
 
+### 2. Changing and persisting CRS of a layer/shapefile
+
+In the previous case, the CRS associated to the layer/shapefile was not changed but simply update "on the fly" dynamically. If you want to change the CRS for a layer you should do the following:
+
+```
+[In QGIS Layers list] 
+Click right on the layer of interest and select 'Save As'
+then you change the CRS via the CRS dropdown and save it (preferably with an explicit name)
+```
