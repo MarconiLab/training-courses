@@ -18,7 +18,7 @@ data/ne_110m_admin_0_countries/
 data/ne_110m_populated_places/
 data/ne_110m_rivers_lake_centerlines/
 ```
-## Exercise outline
+## Exercise outline & memo
 
 ### 1. Opening a shapefile
 
@@ -46,7 +46,7 @@ data/ne_110m_rivers_lake_centerlines/ne_110m_rivers_lake_centerlines.shp
 Warning: *note that what we called a shapefile is actually a combination of files with the following extensions: .shx, .shp, .dbf, ... When we want to open a shapefile in GIS software, we are opening the .shp one.* [See wikipedia entry for shapefile](https://en.wikipedia.org/wiki/Shapefile).
 
 ### 2. Showing attribute table
-A GIS layer has always two facets, representations: geographical (the map istself) and attribute table (spreadsheet) representations.
+A GIS layer has always two facets, representations: geographical (the map istself) and attribute table (tabular) representations.
 
 In the attribute table, each row corresponds to a map feature (a point, a line or a polygon) and columns attributes recorded for this feature (population, type of disease, ...).
 
@@ -107,6 +107,26 @@ then in [input text box], write:
 ```
 
 #### 4.2 Select by spatial query
+
+```
+Install "Spatial Query Plugin" if not already installed. If/when installed the plugin needs to be activated (checkbox on).
+
+Select a country, let's say "Brazil" 
+
+[In QGIS top menu] 
+Vector ▸ Spatial Query ▸ Spatial Query
+
+In "Select source features from" dropdown, choose: "ne_110m_populated_places"
+In "Where the features" dropdown, choose: "Within"
+In "Reference features of", choose: "ne_110m_admin_0_countries" (check selected geometries checkbox)
+
+Then click "Apply"
+```
+
+### 5. Changing order of layers
+
+
+
 
 
 
