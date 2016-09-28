@@ -142,6 +142,16 @@ then, on left side of the properties window, you will find a bunch of choice/opt
 
 We will only focus on "Style" properties for now.
 
+### 6. Styling map features
+```
+Open layer properties
+Click "Style" option and play around with colours to your liking;
+```
 
+### 7. Saving open layers and styles as QGIS project
 
-
+To save your QGIS environment/project:
+```
+[In QGIS top menu] 
+Project ▸ Save As...
+```
