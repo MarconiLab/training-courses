@@ -27,6 +27,6 @@ Change "Format" dropdown to "Windows Comma Separated (.csv)
 
 ### 2. Importing/converting csv file with lat, lon attributes into GIS layer
 
-
+![Importing csv](/img/import-csv.png)
 
 
