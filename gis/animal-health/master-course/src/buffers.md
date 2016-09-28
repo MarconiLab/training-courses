@@ -14,9 +14,16 @@ data/bluetongue_2014_2015_IT
 
 ### Creating zones (buffers)
 
-1. Open a subset of "bluetongue_2014_2015.shp" recently created including only cases in Italy: 
+Open a subset of "bluetongue_2014_2015.shp" recently created including only cases in Italy: 
 
 ```
 data/bluetongue_2014_2015_IT/bluetongue_2014_2015_IT.shp
 ```
+Access Geoprocessing "Buffer" tool:
+
+```
+[In QGIS top menu] 
+Vector ▸ Geoprocessing Tools ▸ Buffer(s)...
+```
+
 
