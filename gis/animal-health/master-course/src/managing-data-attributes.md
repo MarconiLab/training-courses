@@ -18,5 +18,9 @@ data/managing-layer-attributes/
 ```
 Install "Table Manager" plugin if not already installed. If/when installed the plugin needs to be
 activated (checkbox on).
-```
 
+Open: data/managing-layer-attributes/managing-layer-attributes.shp
+
+[In QGIS top menu] 
+Vector ▸ Table Manager ▸ Table manager
+```
