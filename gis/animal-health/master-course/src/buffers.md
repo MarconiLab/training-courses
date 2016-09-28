@@ -6,14 +6,17 @@ By the end of this module, you will know how to:
 * dissolve individual buffers into one single zone
 
 ## Data
-Data to be used in this module can be found in the following folders:
+Data to be used in this module can be found in the following folder:
 ```
-data/ne_110m_admin_0_countries/
+data/bluetongue_2014_2015_IT
 ```
 ## Exercise outline & memos
 
-### 1. Changing CRS on the fly
-Open: 
+### 1. Creating zones (buffers)
+
+Open a subset of "bluetongue_2014_2015.shp" recently created including only cases in Italy: 
+
 ```
-data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp
+data/bluetongue_2014_2015_IT/bluetongue_2014_2015_IT.shp
 ```
+
