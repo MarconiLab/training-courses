@@ -16,8 +16,8 @@ FUNDAMENTAL GIS CONCEPTS
 
 QGIS
   * [Set up](qgis-setup.md)
-  * Opening and overlaying Layers
-  * Handling CRS
+  * Handling GIS layers (opening, overlaying, selecting features, basic styling and saving as project)
+  * Handling the Coordinate Reference System (CRS)
 
 ## [Day 2](day2.md)
   * Importing data from Excel files
