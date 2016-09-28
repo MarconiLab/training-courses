@@ -14,7 +14,7 @@ data/bluetongue_2014_2015_IT
 
 ### 1. Creating zones (buffers)
 
-Open a subset of "bluetongue_2014_2015.shp" recently created including only cases in Italy: 
+1. Open a subset of "bluetongue_2014_2015.shp" recently created including only cases in Italy: 
 
 ```
 data/bluetongue_2014_2015_IT/bluetongue_2014_2015_IT.shp
