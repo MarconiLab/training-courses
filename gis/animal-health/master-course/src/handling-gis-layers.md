@@ -125,7 +125,8 @@ Then click "Apply"
 
 ### 5. Changing order of layers
 ```
-
+[In Layers Panel]
+Simply drag and drop layers you want to move up or down in layers stack
 ```
 
 
