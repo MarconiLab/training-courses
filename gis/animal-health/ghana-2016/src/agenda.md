@@ -23,8 +23,7 @@ QGIS
   * [Importing data from Excel files & overlaying it over Google Maps](importing-excel.md)
   * [Handling QGIS plugins](qgis-setup.md)
   * [Managing data attributes](managing-data-attributes.md)
-  * Creating buffers (buffer zones)
-  * Merging (dissolving features)
+  * [Creating buffers (buffer zones)](buffers.md)
 
 ## [Day 3](day3.md)
   * Collecting geographical coordinates through mobile phone
