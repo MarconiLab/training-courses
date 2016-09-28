@@ -3,10 +3,10 @@
 ## Targeted skills
 By the end of this module, you will know how to:
 * open shapefiles
+* show attribute tables
 * browse the map: zoom (in, out, to region), pan, ...
 * select features: individually, by regions, by attribute value, through spatial query
 * change the order of layers
-* open attribute tables
 * access layers properties
 * style map features (basic)
 * save open layers, styling in a QGIS project
@@ -45,7 +45,32 @@ data/ne_110m_rivers_lake_centerlines/ne_110m_rivers_lake_centerlines.shp
 ```
 Warning: *note that what we called a shapefile is actually a combination of files with the following extensions: .shx, .shp, .dbf, ... When we want to open a shapefile in GIS software, we are opening the .shp one.* [See wikipedia entry for shapefile](https://en.wikipedia.org/wiki/Shapefile).
 
-### 2. Browsing the map
+### 2. Showing attribute table
+A GIS layer has always two facets, representations: geographical (the map istself) and attribute table (spreadsheet) representations.
+
+In the attribute table, each row corresponds to a map feature (a point, a line or a polygon) and columns attributes recorded for this feature (population, type of disease, ...).
+
+To open the attribute table:
+
+Option 1:
+```
+[In QGIS top menu] 
+Layer ▸ Open Attribute Table
+```
+
+Option 2:
+```
+[In QGIS top toolbar] 
+Click the 'table' icon
+```
+
+Option 3:
+```
+[In QGIS Layers list] 
+Click right on the layer of interest and select 'Open Attribute Table'
+```
+
+### 3. Browsing the map
 Option 1:
 ```
 [In QGIS top menu] 
@@ -60,7 +85,7 @@ Option 2:
 ```
 Hint: *you will find a series of buttons with magnifiers icon. Play around ...*
 
-### 2. Select features
+### 4. Select features
 Option 1:
 ```
 [In QGIS top menu] 
@@ -71,7 +96,7 @@ Option 2:
 ```
 [In QGIS top toolbar] 
 ```
-#### 2.1 Select by attribute value
+#### 4.1 Select by attribute value
 ```
 [In QGIS top menu] 
 View ▸ Select ▸ Select by Expression ...
@@ -81,7 +106,7 @@ then in [input text box], write:
 "pop_est"  > 50000000  and click 'Select' button
 ```
 
-#### 2.2 Select by spatial query
+#### 4.2 Select by spatial query
 
 
 
