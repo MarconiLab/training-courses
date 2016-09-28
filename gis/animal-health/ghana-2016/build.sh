@@ -8,4 +8,5 @@ cp ../master-course/src/resources.md ./src/
 cp ../master-course/src/qgis-setup.md ./src/
 cp ../master-course/src/handling-gis-layers.md ./src/
 cp ../master-course/src/importing-excel.md ./src/
+cp -R ../master-course/src/img ./src/
 echo "Source files (.md) files copied successfully!"
