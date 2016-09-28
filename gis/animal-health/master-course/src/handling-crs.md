@@ -12,11 +12,17 @@ data/ne_110m_admin_0_countries/
 ```
 ## Exercise outline & memos
 
-### 1. Opening a shapefile
-
-Option 1:
+### 1. Changing CRS on the fly
+Open: 
+```
+data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp
+```
+and
 ```
 [In QGIS top menu] 
-Layer ▸ Add Layer ▸ Add Vector Layer  
+Project ▸ Project Properties ▸ Add Vector Layer  ▸ CRS (tab) ▸ Check "Enable on the fly CRS transformation"
 ```
+Play around with various CRS, apply and see the variety of world representation and their respective distortion (for instance select: Mercator, or World_Bonne.
+
+Notice as well that in the status bar (bottom part of the screen), coordinates are not anymore in lon, lat but in x,y meters.
 
