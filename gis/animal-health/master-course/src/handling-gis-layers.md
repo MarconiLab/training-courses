@@ -11,7 +11,7 @@ By the end of this module, you will know how to:
 * style map features (basic)
 * save open layers, styling in a QGIS project
 
-## Set up
+## Data
 Data to be used in this module can be found in the following folders:
 ```
 data/ne_110m_admin_0_countries/
