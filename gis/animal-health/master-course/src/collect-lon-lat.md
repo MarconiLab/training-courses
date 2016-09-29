@@ -37,7 +37,7 @@ Longitude and latitude can be represented in different units:
 * in ° (degrees), minute ('), seconds (''), for instance 30°15'50''
 * in decimal degrees, for instance 30.263888889°
 
-This two links will clarify this distinction:
+This two links will clarify how to convert from one unit system to the other:
 * [Convert from degrees, minutes, seconds -> decimal degrees](http://www.rapidtables.com/convert/number/degrees-minutes-seconds-to-degrees.htm)
 * [Convert decimal degrees -> degrees, minutes, seconds](http://www.rapidtables.com/convert/number/degrees-to-degrees-minutes-seconds.htm)
 
