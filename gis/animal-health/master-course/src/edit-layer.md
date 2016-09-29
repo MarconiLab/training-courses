@@ -33,6 +33,7 @@ Option 1:
 ```
 [In QGIS top menu] 
 Layer ▸ Toggle Editing
+Open the attribute table
 ```
 
 Option 2:
@@ -40,12 +41,17 @@ Option 2:
 ```
 [In Layers Panel] 
 Right click on the layer of interest and click "Toggle Editing"
+Open the attribute table
 ```
 
 Option 3:
 ```
-Simply open the attribute table and toggle editing via the "Pencil" icon (top left toolbar)
+Simply directly open the attribute table and toggle editing via the "Pencil" icon (top left toolbar)
 ```
+Once attribute table opened and editing mode toggled, the top toolbar will give you all the required options: add, delete and edit features (see screenshot belo).
+
+Hints: Remember that hovering over an icon will open a tooltip showing button function.
+
 
 
 
