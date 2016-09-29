@@ -11,6 +11,12 @@ None
 ```
 ## Exercise outline & memos
 
-A buffer in GIS is simply a zone around a map feature measured in units of distance or time. A buffer is useful for [proximity analysis](https://en.wikipedia.org/wiki/Proximity_analysis).
+There is today a multitude of way to know a speficic location (longitude, latitude):
+1. traditional dedicated GPS devices
+2. Google Map
+3. mobile phone application
 
-### Creating zones (buffers)
+We will see in this short module how to use methodes 2 and 3.
+
+
+### 1. Collection longitude, latitude
