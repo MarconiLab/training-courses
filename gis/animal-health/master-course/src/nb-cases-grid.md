@@ -64,8 +64,17 @@ Click right on "grid_0_15" and save as... (be sure to check "Save only selected 
 
 
 
+### 3. Summing number of animal disease cases by grid cell
 
+```
+[In QGIS top menu] 
+Vector ▸ Analysis Tools ▸ Points in Polygon...
+Reproduce settings below and click "OK"
+```
 
+![Cases in Grid](img/cases-in-grid.png)
+
+### 4. Create a thematic map of number of cases
 
 
 
