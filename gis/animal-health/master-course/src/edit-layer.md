@@ -13,4 +13,45 @@ data/bluetongue_2014_2015_edit
 
 
 ### Add, edit and delete features
+```
+Open: data/data/bluetongue_2014_2015_edit/bluetongue_2014_2015_edit.shp and overlay it over Google Hybrid
+background layer.
+```
+
+To edit a layer, you need to toggle the "Editing mode", there several ways to do so.
+
+First:
+```
+[In Layers Panel]
+Select (click) the layer of interest, here blueongue_2014_2015_edit
+```
+
+then,
+
+Option 1:
+
+```
+[In QGIS top menu] 
+Layer ▸ Toggle Editing
+```
+
+Option 2:
+
+```
+[In Layers Panel] 
+Right click on the layer of interest and click "Toggle Editing"
+```
+
+Option 3:
+```
+Simply open the attribute table and toggle editing via the "Pencil" icon (top left toolbar)
+```
+
+
+
+
+
+
+
+
 
