@@ -28,12 +28,10 @@ QGIS
 ## [Day 3](day3.md)
   * [Collecting geographical coordinates](collect-lon-lat.md)
   * [Editing an existing layer (add, update, delete features)](edit-layer.md)
-  * Generating "fishnet" grid layers
-  * Aggregating points in polygons: counts, sums of cases/deaths per administrative boundaries, grid cells)
-  * Basic thematic mapping
+  * [Mapping number of cases in a grid](nb-cases-grid.md)
+  * [Mapping number of cases by administrive boundaries](nb-cases-admin.md)
 
 ## [Day 4](day4.md)
-  * Thematic mapping (continued)
   * Time series animation
 
 ONLINE MAPPING WITH CARTO
