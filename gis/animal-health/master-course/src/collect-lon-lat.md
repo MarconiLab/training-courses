@@ -1,1 +1,1 @@
-
+Collecting geographical coordinates
