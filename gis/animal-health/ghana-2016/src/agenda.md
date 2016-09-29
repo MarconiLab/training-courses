@@ -32,7 +32,6 @@ QGIS
   * [Mapping number of cases by administrive boundaries](nb-cases-admin.md)
 
 ## [Day 4](day4.md)
-  * Thematic mapping (continued)
   * Time series animation
 
 ONLINE MAPPING WITH CARTO
