@@ -30,8 +30,6 @@ QGIS
   * [Editing an existing layer (add, update, delete features)](edit-layer.md)
   * [Mapping number of cases in a grid](nb-cases-grid.md)
   * [Mapping number of cases by administrive boundaries](nb-cases-admin.md)
-  * Aggregating points in polygons: counts, sums of cases/deaths per administrative boundaries, grid cells)
-  * Basic thematic mapping
 
 ## [Day 4](day4.md)
   * Thematic mapping (continued)
