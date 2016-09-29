@@ -70,7 +70,7 @@
   <projectlayers>
     <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
       <id>OpenLayers_plugin_layer20160929122300021</id>
-      <datasource></datasource>
+      <datasource>.</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -93,7 +93,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>bluetongue_2014_2015_edit20160929123413581</id>
-      <datasource>/Users/ganesh/Pro/training-courses/gis/animal-health/master-course/data/bluetongue_edit/bluetongue_2014_2015_edit.shp</datasource>
+      <datasource>../data/bluetongue_2014_2015_edit/bluetongue_2014_2015_edit.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -382,17 +382,18 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -444,8 +445,8 @@ def my_form_open(dialog, layer, feature):
       <DegreeFormat type="QString">MU</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
