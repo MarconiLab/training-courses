@@ -28,7 +28,8 @@ QGIS
 ## [Day 3](day3.md)
   * [Collecting geographical coordinates](collect-lon-lat.md)
   * [Editing an existing layer (add, update, delete features)](edit-layer.md)
-  * [Mapping number of cases in a grid](cases-grid.md)
+  * [Mapping number of cases in a grid](nb-cases-grid.md)
+  * [Mapping number of cases by administrive boundaries](nb-cases-admin.md)
   * Aggregating points in polygons: counts, sums of cases/deaths per administrative boundaries, grid cells)
   * Basic thematic mapping
 
