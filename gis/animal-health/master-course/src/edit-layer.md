@@ -5,39 +5,61 @@ By the end of this module, you will know how to:
 * add, edit and delete a new feature in an existing file.
 
 ## Data
+Data to be used in this module can be found in the following folder:
 ```
-None required for this module
+data/bluetongue_2014_2015_edit
 ```
 ## Exercise outline & memos
 
-There is today a multitude of way to know a speficic location (longitude, latitude):
 
-1. traditional dedicated GPS devices
-2. Google Map
-3. mobile phone application
-
-We will see in this short module how to use methodes **2** and **3**.
-
-
-### 1. Collection longitude, latitude
-
-To get the longitude and latitude of a specific location in [Google Maps](https://maps.google.com/), simply:
+### Add, edit and delete features
 ```
-1. Pan, zoom to your location of interest
-2. Right-click the place or area on the map.
-3. Select What's here?
-4. A card appears at the bottom of the screen with more info.
+Open: data/data/bluetongue_2014_2015_edit/bluetongue_2014_2015_edit.shp and overlay it over Google Hybrid
+background layer.
 ```
 
-To get the longitude and latitude of your location while on the field, you will find various mobile applications of interest for Android or iPhone. For instance (but you will easily find many others), you can install: [Polaris Navigation](https://play.google.com/store/apps/details?id=com.discipleskies.android.polarisnavigation&hl=en) application on Android.
+To edit a layer, you need to toggle the "Editing mode", there several ways to do so.
 
-### 2. Converting longitude, latitude
-Longitude and latitude can be represented in different units: 
-* in ° (degrees), minute ('), seconds (''), for instance 30°15'50''
-* in decimal degrees, for instance 30.263888889°
+First:
+```
+[In Layers Panel]
+Select (click) the layer of interest, here blueongue_2014_2015_edit
+```
 
-This two links will clarify how to convert from one unit system to the other:
-* [Convert from degrees, minutes, seconds -> decimal degrees](http://www.rapidtables.com/convert/number/degrees-minutes-seconds-to-degrees.htm)
-* [Convert decimal degrees -> degrees, minutes, seconds](http://www.rapidtables.com/convert/number/degrees-to-degrees-minutes-seconds.htm)
+then,
+
+Option 1:
+
+```
+[In QGIS top menu] 
+Layer ▸ Toggle Editing
+Open the attribute table
+```
+
+Option 2:
+
+```
+[In Layers Panel] 
+Right click on the layer of interest and click "Toggle Editing"
+Open the attribute table
+```
+
+Option 3:
+```
+Simply directly open the attribute table and toggle editing via the "Pencil" icon (top left toolbar)
+```
+Once attribute table opened and editing mode toggled, the top toolbar will give you all the required options: add, delete and edit features (see screenshot belo).
+
+Hints: Remember that hovering over an icon will open a tooltip showing button function.
+
+![Editing layer](img/edit-layer.png)
+
+
+
+
+
+
+
+
 
 
