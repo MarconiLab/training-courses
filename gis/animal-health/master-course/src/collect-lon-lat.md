@@ -12,6 +12,7 @@ None
 ## Exercise outline & memos
 
 There is today a multitude of way to know a speficic location (longitude, latitude):
+
 1. traditional dedicated GPS devices
 2. Google Map
 3. mobile phone application
