@@ -52,6 +52,8 @@ Once attribute table opened and editing mode toggled, the top toolbar will give 
 
 Hints: Remember that hovering over an icon will open a tooltip showing button function.
 
+![Editing layer](img/edit-layer.png)
+
 
 
 
