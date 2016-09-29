@@ -12,6 +12,7 @@ cp ../master-course/src/managing-data-attributes.md ./src/
 cp ../master-course/src/buffers.md ./src/
 cp ../master-course/src/collect-lon-lat.md ./src/
 cp ../master-course/src/edit-layer.md ./src/
+cp ../master-course/src/nb-cases-grid.md ./src/
 
 cp -R ../master-course/src/img ./src/
 echo "Source files (.md) files copied successfully!"
