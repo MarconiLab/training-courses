@@ -3,7 +3,7 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="bluetongue_2014_2015_edit20160929123413581" name="bluetongue_2014_2015_edit">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="bluetongue_2014_2015_edit20160929125313761" name="bluetongue_2014_2015_edit">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20160929122300021" name="Google Hybrid">
@@ -14,10 +14,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1318857.66717330855317414</xmin>
-      <ymin>5136560.31291663739830256</ymin>
-      <xmax>1424054.58597295149229467</xmax>
-      <ymax>5232418.56296794023364782</ymax>
+      <xmin>1345240.38649131590500474</xmin>
+      <ymin>5179984.41524305753409863</ymin>
+      <xmax>1370955.18886456033214927</xmax>
+      <ymax>5200494.43498935736715794</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -35,15 +35,18 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="bluetongue_2014_2015_edit_220160929125105012"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20160929121433339"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="bluetongue_2014_2015_IT20160929123302070"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="bluetongue_2014_201520160929122556659"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="bluetongue_2014_2015_IT20160929122842965"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160929122300021"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="bluetongue_2014_2015_edit_220160929125300514"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_Humanitarian_Data_Model20160929122053364"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="bluetongue_2014_2015_edit20160929123413581"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:900913" srcDatumTransform="-1" destDatumTransform="-1" layerid="bluetongue_2014_2015_IT_merc20160929122512940"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="bluetongue_2014_2015_IT20160929123212463"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="bluetongue_2014_2015_edit20160929125313761"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20160929121327092"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="bluetongue_2014_2015_IT20160929122033929"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:900913" srcDatumTransform="-1" destDatumTransform="-1" layerid="bluetongue_2014_2015_IT_merc20160929123134207"/>
@@ -52,13 +55,13 @@
   <layer-tree-canvas>
     <custom-order enabled="0">
       <item>OpenLayers_plugin_layer20160929122300021</item>
-      <item>bluetongue_2014_2015_edit20160929123413581</item>
+      <item>bluetongue_2014_2015_edit20160929125313761</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="bluetongue_2014_2015_edit" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="bluetongue_2014_2015_edit20160929123413581" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="bluetongue_2014_2015_edit20160929125313761" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Google Hybrid" showFeatureCount="0">
@@ -92,7 +95,7 @@
       </customproperties>
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>bluetongue_2014_2015_edit20160929123413581</id>
+      <id>bluetongue_2014_2015_edit20160929125313761</id>
       <datasource>../data/bluetongue_2014_2015_edit/bluetongue_2014_2015_edit.shp</datasource>
       <keywordList>
         <value></value>
@@ -203,7 +206,7 @@
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="3"/>
+              <prop k="size" v="4"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -382,18 +385,17 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -471,7 +473,7 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>bluetongue_2014_2015_edit20160929123413581</value>
+        <value>bluetongue_2014_2015_edit20160929125313761</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>enabled</value>
