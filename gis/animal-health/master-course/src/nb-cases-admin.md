@@ -74,6 +74,14 @@ Note that instead of using simply "sum_cases" as column we use instead "sum_case
 
 Now you should have both thematic maps (absolute values and density) in our layers panel, switch it on and of to notice how different is the spatial pattern.
 
+### 3. Creating a proportional circles map
+
+Another expressive mapping technique in that case it to use proporional circle, i.e circles whose area is proportional to the number of cases.
+
+```
+First make a copy of "grc_admin3_sum_cases.shp" by saving it as "grc_admin3_sum_cases_bubbles.shp"
+Reproduce the settings shown below (settings will be further commented during live session)
+```
 
 
 
