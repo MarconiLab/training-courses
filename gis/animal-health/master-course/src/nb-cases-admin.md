@@ -57,6 +57,6 @@ Click right on newly created "grid_nb_cases.shp" to open its property panel.
 Reproduce the settings shown below (settings will be further commented during live session)
 ```
 
-![Thematic mapping in grid](img/them-mapping-grid.png)
+![Thematic mapping in admin. bound - absolute](img/sum_cases_admin_level3_choro_abs.png)
 
 
