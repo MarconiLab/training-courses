@@ -59,4 +59,6 @@ Reproduce the settings shown below (settings will be further commented during li
 
 ![Thematic mapping in admin. bound - absolute](img/sum_cases_admin_level3_choro_abs.png)
 
+Warning: Now, one important issue with that kind of map is that bigger administrative regions area likely to include more points, so more cases. As a result, most often, that kind of maps just shows that the bigger is the region the more case we get (which is not so much informative).
 
+Instead, we would prefer to map density, i.e normalize the number of cases by the area. This is what we will do next.
