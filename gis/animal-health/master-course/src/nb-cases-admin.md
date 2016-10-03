@@ -80,8 +80,17 @@ Another expressive mapping technique in that case it to use proporional circle, 
 
 ```
 First make a copy of "grc_admin3_sum_cases.shp" by saving it as "grc_admin3_sum_cases_bubbles.shp"
-Reproduce the settings shown below (settings will be further commented during live session)
+
+Open the properties dialog for the new layer created and select the "Diagrams" tab, then reproduce the 4 following settings
 ```
 
+![Bubble 1](img/bubble_1.png)
+![Bubble 2](img/bubble_2.png)
+![Bubble 3](img/bubble_3.png)
+![Bubble 4](img/bubble_4.png)
+
+As a result, you should obtain a map as shown below (don't forget to change the styles of the polygon layer - admin. bound. to grey tones):
+
+![Bubble final](img/bubble_final.png)
 
 
