@@ -17,6 +17,8 @@ data/grc_admin3
 This operation looks a bit esoteric but the idea is simple. Let's take an example, imagine a country where the main administrative
 levels are provinces further divided into regions. You want a shapefile of these provinces but you only have for now a shapefile of
 the regions. 
+
+
 | province | region |
 |----------|--------|
 | prov_a   | reg_1  |
