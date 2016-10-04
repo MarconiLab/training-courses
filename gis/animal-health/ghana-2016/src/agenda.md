@@ -30,6 +30,7 @@ QGIS
   * [Editing an existing layer (add, update, delete features)](edit-layer.md)
   * [Mapping number of cases in a grid](nb-cases-grid.md)
   * [Mapping number of cases by administrative boundaries](nb-cases-admin.md)
+  * [Dissolving polygons - optional](dissolving-poly.md)
 
 ## [Day 4](day4.md)
   * Time series animation
