@@ -13,7 +13,6 @@ the dataset uploaded in previous module
 
 ## Exercise outline & memos
 
-
 ### 1. Creating an animation of disease cases over time
 
 Our goal here it to create an animation of animal disease cases registered. 
@@ -24,15 +23,15 @@ To create a new map:
 [From Carto Dashboard]
 Select "Your maps"
 
-from there simply click on button "NEW MAP" (top-right)
+From there simply click on button "NEW MAP" (top-right)
 
-click on "bluetongue_carto" dataset and click on button "CREATE MAP" (bottom-righ)
+Click on "bluetongue_carto" dataset and click on button "CREATE MAP" (bottom-righ)
 
-rename your newly create map "bluetongue_disease_spread" by just clicking on top-left "Untitled Map" and writing the new one
+Rename your newly create map "bluetongue_disease_spread" by just clicking on top-left "Untitled Map" and writing the new one
 
-then on right panel, click the brush icon (tooltip showing "wizard" when hovering on it)
+Then on right panel, click the brush icon (tooltip showing "wizard" when hovering on it)
 
-and after having clicled to "Torque" wizard, reproduce settings shown below:
+And after having clicled to "Torque" wizard, reproduce settings shown below:
 ```
 
 ![heatmap settings](img/heatmap-carto-settings.png)
@@ -45,9 +44,19 @@ Once done, you should get the following map:
 
 ![heatmap final](img/heatmap-carto-final.png)
 
-or the animated version at the following link []()
+Obviously, this is a bit disappointing to share a static map considering that we have just created a compelling time animation of bluetongue spread from Feb. 2014 to Dec. 2015.
 
-<iframe width="100%" height="520" frameborder="0" src="https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+To share the animation, there is nothing simpler !
 
+### 2. Disseminating your visualization to the web
 
-You should get
+To make your visualization accessible by the world:
+
+```
+Click on "PUBLISH" link (top-right)
+
+Under "Get the link" section, simply copy (ctrl+c) the url provided in my case:
+[https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/public_map](https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/public_map)
+
+And share it via email with your colleague or/and open it on a new Browser window.
+```
