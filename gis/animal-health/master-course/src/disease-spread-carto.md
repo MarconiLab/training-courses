@@ -55,7 +55,10 @@ To make your visualization accessible by the world:
 ```
 Click on "PUBLISH" link (top-right)
 
-Under "Get the link" section, simply copy (ctrl+c) the [url provided](https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/public_map)
+Under "Get the link" section, simply copy (ctrl+c) the url provided (in my case: https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/public_map)
 
 And share it via email with your colleague or/and open it on a new Browser window.
 ```
+
+[Click to see my version of the visualization](https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/public_map)
+
