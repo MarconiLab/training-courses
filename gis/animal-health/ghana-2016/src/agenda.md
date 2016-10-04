@@ -29,21 +29,19 @@ QGIS
   * [Collecting geographical coordinates](collect-lon-lat.md)
   * [Editing an existing layer (add, update, delete features)](edit-layer.md)
   * [Mapping number of cases in a grid](nb-cases-grid.md)
-  * [Mapping number of cases by administrative boundaries](nb-cases-admin.md)
   * [Dissolving polygons - optional](dissolving-poly.md)
-
+  
 ## [Day 4](day4.md)
-  * Time series animation
+  * [Mapping number of cases by administrative boundaries](nb-cases-admin.md)
+  * Time series animation with MMQGIS
 
-ONLINE MAPPING WITH CARTO
+ONLINE MAPPING WITH CARTO (previously CARTODB)
   * Intro
-  * Data upload
-  * Styling map
-
+  * Data upload and interface overview
+  * Create an animation of disease spread over time
+  * Disseminate your visualization online
+  
 ## [Day 5](day5.md)
-  * Time series animation
-  * Map dissemination
+  * Practice your skill with another dataset
+  * Course wrapup
 
-COURSE WRAPUP
-  * Finalizing exercises
-  * Uncovered topics and further resources
