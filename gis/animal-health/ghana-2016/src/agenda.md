@@ -29,7 +29,7 @@ QGIS
   * [Collecting geographical coordinates](collect-lon-lat.md)
   * [Editing an existing layer (add, update, delete features)](edit-layer.md)
   * [Mapping number of cases in a grid](nb-cases-grid.md)
-  * [Dissolving polygons - optional](dissolving-poly.md)
+  * [Dissolving polygons](dissolving-poly.md)
   
 ## [Day 4](day4.md)
   * [Mapping number of cases by administrative boundaries](nb-cases-admin.md)
