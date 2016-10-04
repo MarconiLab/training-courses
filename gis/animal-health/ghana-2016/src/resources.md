@@ -23,7 +23,15 @@
 * [http://www.naturalearthdata.com/](http://www.naturalearthdata.com/)
 * [http://www.gadm.org/](http://www.gadm.org/)
 
+## ANIMATION WITH QGIS (CARTO might be a better alternative)
+* [http://michaelminn.com/linux/mmqgis/](http://michaelminn.com/linux/mmqgis/)
+* [http://undertheraedar.blogspot.co.at/2014/12/simple-animations-with-qgis-long.html](http://undertheraedar.blogspot.co.at/2014/12/simple-animations-with-qgis-long.html)
+* [https://geouk.wordpress.com/2012/09/05/qgis-time-manager/](https://geouk.wordpress.com/2012/09/05/qgis-time-manager/)
 
 ## GLOSSARY
 * [QGIS User Interface Overview: Top Toolbars, Map Canvas, Layers list, Status Bar and side toolbar](https://docs.qgis.org/2.2/en/docs/training_manual/introduction/overview.html)
 * [Shapefile](https://en.wikipedia.org/wiki/Shapefile)
+
+## OTHER
+* Record animations to gif movie file: [https://www.youtube.com/watch?v=0aYrNUUKM-4](https://www.youtube.com/watch?v=0aYrNUUKM-4)
+
