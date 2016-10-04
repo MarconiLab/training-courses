@@ -62,3 +62,7 @@ And share it via email with your colleague or/and open it on a new Browser windo
 
 [Click to see my version of the visualization](https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/public_map)
 
+To play around and explore the wealth of possible visualizations, go through the full Carto tutorials: [https://carto.com/docs/tutorials/](https://carto.com/docs/tutorials/)
+
+
+
