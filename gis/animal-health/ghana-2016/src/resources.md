@@ -2,17 +2,17 @@
 
 ## QGIS OFFICIAL DOCUMENTATION
   * Gentle GIS Introduction [http://docs.qgis.org/2.14/en/docs/gentle_gis_introduction/](http://docs.qgis.org/2.14/en/docs/gentle_gis_introduction/)
-  * [QGIS Training manual](http://docs.qgis.org/2.14/en/docs/training_manual/)
-  * [QGIS User Guide](http://docs.qgis.org/2.14/en/docs/user_manual/)
+  * QGIS Training manual [http://docs.qgis.org/2.14/en/docs/training_manual/](http://docs.qgis.org/2.14/en/docs/training_manual/)
+  * QGIS User Guide[http://docs.qgis.org/2.14/en/docs/user_manual/](http://docs.qgis.org/2.14/en/docs/user_manual/)
 
 ## COORDINATE REFERENCE SYSTEM & MAP PROJECTIONS
-* [Notion of map scale](https://en.wikipedia.org/wiki/Scale_(map))
-* [Map projections explained by Carlos Furuti](http://www.progonos.com/furuti/MapProj/Normal/TOC/cartTOC.html)
-* [Comparing Map projections](http://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e)
+* Notion of map scale [(https://en.wikipedia.org/wiki/Scale_(map))](https://en.wikipedia.org/wiki/Scale_(map))
+* Map projections explained by Carlos Furuti [http://www.progonos.com/furuti/MapProj/Normal/TOC/cartTOC.html](http://www.progonos.com/furuti/MapProj/Normal/TOC/cartTOC.html)
+* Comparing Map projections [http://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e](http://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e)
 
 ## VISUAL ENCODINGS
-* [Visual encoding](http://vda.univie.ac.at/Teaching/Vis/13s/LectureNotes/05_visual_encodings.pdf)
-* [Pre-attentive processing](https://www.youtube.com/watch?v=UFNzATczkDU)
+* Visual encoding [http://vda.univie.ac.at/Teaching/Vis/13s/LectureNotes/05_visual_encodings.pdf](http://vda.univie.ac.at/Teaching/Vis/13s/LectureNotes/05_visual_encodings.pdf)
+* Pre-attentive processing [https://www.youtube.com/watch?v=UFNzATczkDU](https://www.youtube.com/watch?v=UFNzATczkDU)
 * [Colour brewer](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
 
 ## VARIOUS TYPE OF MAPS
