@@ -14,6 +14,7 @@ cp ../master-course/src/collect-lon-lat.md ./src/
 cp ../master-course/src/edit-layer.md ./src/
 cp ../master-course/src/nb-cases-grid.md ./src/
 cp ../master-course/src/nb-cases-admin.md ./src/
+cp ../master-course/src/dissolving-poly.md ./src/
 
 cp -R ../master-course/src/img ./src/
 echo "Source files (.md) files copied successfully!"
