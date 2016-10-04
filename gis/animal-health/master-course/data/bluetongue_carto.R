@@ -17,4 +17,4 @@ bt.expanded <- bt[rep(row.names(bt), bt$sum_cases), ]
 bt <- bt.expanded[, c("lat", "lon", "loc", "obs_date")]
 
 # Save it as csv
-write.table(bt, file = "bluetonge_carto.csv", sep = ",", row.names = FALSE)
+write.table(bt, file = "bluetongue_carto.csv", sep = ",", row.names = FALSE)
