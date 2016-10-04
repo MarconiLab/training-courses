@@ -40,6 +40,12 @@ Open: data/grc_admin3/grc_admin3.shp
 Vector ▸ Geoprocessing Tools ▸ Dissolve...
 ```
 
-then reproduce the settings below (save shapefile created as: "grc_level3_to_level2):
+then reproduce the settings below:
 
 ![Dissolve](img/dissolve.png)
+
+```
+Save shapefile created as: "grc_level3_to_level2"
+```
+
+As simple as that !
