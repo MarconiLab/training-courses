@@ -21,10 +21,11 @@ data/
 
 The advandage is that you don't need to install, maintain them, this is done by the Service provider. Obviously, you need to pay for this service. Hopefully, you can create a free account that will already allow you to create and disseminate your map/visualization through the web. 
 
-To create a free account, follow this link [https://carto.com/signup](https://carto.com/signup).
+To create a free account, follow this link [https://carto.com/signup](https://carto.com/signup)
 
 To have an overview of the beautiful maps/visualization you can create, follow this link: [https://carto.com/gallery/](https://carto.com/gallery/)
 
+### 2. Interface overview
 
 
 
