@@ -25,6 +25,8 @@ To create a free account, follow this link [https://carto.com/signup](https://ca
 
 To have an overview of the beautiful maps/visualization you can create, follow this link: [https://carto.com/gallery/](https://carto.com/gallery/)
 
+To get access to a wide range of tutorials, follow this link: [https://carto.com/docs/tutorials/](https://carto.com/docs/tutorials/)
+
 ### 2. Interface overview
 
 
