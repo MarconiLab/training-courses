@@ -44,10 +44,6 @@ ONLINE MAPPING WITH CARTO
   * Time series animation
   * Map dissemination
 
-QGIS
-  * [Optional] Composing map layout [title, scales, legend, ...]
-  * [Optional] Mapping participants own datasets
-
 COURSE WRAPUP
   * Finalizing exercises
   * Uncovered topics and further resources
