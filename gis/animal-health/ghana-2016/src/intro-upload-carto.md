@@ -32,7 +32,7 @@ Our goal here it to create an animation of animal disease cases registered
 
 Once logged in, you will be directed to your Carto Dashboard. Carto web application is mainly composed of two components/pages: the "Datasets" and "Maps" (see screenshot below):
 
-![Carto datasets & Maps](carto-datasets-maps.png)
+![Carto datasets & Maps](img/carto-datasets-maps.png)
 
 To upload a new dataset:
 
