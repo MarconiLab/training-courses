@@ -18,7 +18,7 @@ This operation looks a bit esoteric but the idea is simple. Let's take an exampl
 levels are provinces further divided into regions. You want a shapefile of these provinces but you only have for now a shapefile of
 the regions. 
 | province | region |
-|:-------:|:------:|
+|----------|--------|
 | prov_a   | reg_1  |
 | prov_a   | reg_2  |
 | prov_b   | reg_3  |
