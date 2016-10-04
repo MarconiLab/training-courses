@@ -2,9 +2,9 @@
 > [GIS fundamentals | Training Course](agenda.md) ▸ **Introduction & data upload**
 
 ## Targeted skills
-By the end of this module, you will know how to:
-* access and understand Carto web application
-* upload your dataset
+By the end of this module, you will know:
+* what is Carto 
+* and how to upload your dataset
 
 ## Data
 Data to be used in this module can be found in the following folder:
@@ -27,7 +27,20 @@ To have an overview of the beautiful maps/visualization you can create, follow t
 
 To get access to a wide range of tutorials, follow this link: [https://carto.com/docs/tutorials/](https://carto.com/docs/tutorials/)
 
-### 2. Interface overview
+### 2. Upload your data
+Our goal here it to create an animation of animal disease cases registered 
 
+Once logged in, you will be directed to your Carto Dashboard. Carto web application is mainly composed of two components/pages: the "Datasets" and "Maps" (see screenshot below):
 
+[Carto datasets & Maps](carto-datasets-maps.png)
 
+To upload a new dataset:
+
+```
+[In Carto Top Menu]
+Select "Your datasets"
+
+from there simply click on button "NEW DATASET" (top-left)
+
+and drag and drop "bluetongue_carto.csv" file you will find under data/ folder
+```
