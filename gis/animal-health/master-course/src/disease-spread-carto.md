@@ -14,39 +14,40 @@ the dataset uploaded in previous module
 ## Exercise outline & memos
 
 
-### 1. Introduction
+### 1. Creating an animation of disease cases over time
 
-[Carto](https://carto.com/) (renamed recently - was CartoDB before), is a Software As A Service [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service). It means that once you have created an account, you gain full access to a set of technologies (database engine, map rendere, ...) in your web browser/navigator (Chrome, Firefox, ...) that you normally install in a dedicated server in your institution or in your own desktop. 
+Our goal here it to create an animation of animal disease cases registered. 
 
-The advandage is that you don't need to install, maintain them, this is done by the Service provider. Obviously, you need to pay for this service. Hopefully, you can create a free account that will already allow you to create and disseminate your map/visualization through the web. 
-
-To create a free account, follow this link [https://carto.com/signup](https://carto.com/signup)
-
-To have an overview of the beautiful maps/visualization you can create, follow this link: [https://carto.com/gallery/](https://carto.com/gallery/)
-
-To get access to a wide range of tutorials, follow this link: [https://carto.com/docs/tutorials/](https://carto.com/docs/tutorials/)
-
-### 2. Upload your data
-Our goal here it to create an animation of animal disease cases registered 
-
-Once logged in, you will be directed to your Carto Dashboard. Carto web application is mainly composed of two components/pages: the "Datasets" and "Maps" (see screenshot below):
-
-![Carto datasets & Maps](img/carto-datasets-maps.png)
-
-To upload a new dataset:
+To create a new map:
 
 ```
-[In Carto Top Menu]
-Select "Your datasets"
+[From Carto Dashboard]
+Select "Your maps"
 
-from there simply click on button "NEW DATASET" (top-right)
+from there simply click on button "NEW MAP" (top-right)
 
-drag and drop "bluetongue_carto.csv" file you will find under data/ folder
+click on "bluetongue_carto" dataset and click on button "CREATE MAP" (bottom-righ)
 
-and finally
+rename your newly create map "bluetongue_disease_spread" by just clicking on top-left "Untitled Map" and writing the new one
 
-click on "CONNECT DATASET" button (bottom-right)
+then on right panel, click the brush icon (tooltip showing "wizard" when hovering on it)
+
+and after having clicled to "Torque" wizard, reproduce settings shown below:
 ```
-Your dataset is uploaded! Carto allows you to consider your dataset from two prespective/representations (as in QGIS): a tabular and map representations.
+
+![heatmap settings](img/heatmap-carto-settings.png)
+
+To get the proper color for "Marker Fill", click on the "colored box" and enter the following code: "#F11810"
+
+![heatmap settings color](img/heatmap-carto-settings-color.png)
+
+Once done, you should get the following map:
+
+![heatmap final](img/heatmap-carto-final.png)
+
+or the animated version at the following link []()
+
+<iframe width="100%" height="520" frameborder="0" src="https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 
+You should get
