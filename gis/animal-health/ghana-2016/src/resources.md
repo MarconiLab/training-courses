@@ -1,7 +1,7 @@
 > [GIS fundamentals | Training Course](agenda.md) ▸ **Resources**
 
 ## QGIS OFFICIAL DOCUMENTATION
-  * [Gentle GIS Introduction](http://docs.qgis.org/2.14/en/docs/gentle_gis_introduction/)
+  * Gentle GIS Introduction [http://docs.qgis.org/2.14/en/docs/gentle_gis_introduction/](http://docs.qgis.org/2.14/en/docs/gentle_gis_introduction/)
   * [QGIS Training manual](http://docs.qgis.org/2.14/en/docs/training_manual/)
   * [QGIS User Guide](http://docs.qgis.org/2.14/en/docs/user_manual/)
 
