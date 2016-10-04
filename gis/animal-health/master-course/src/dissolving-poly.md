@@ -18,6 +18,8 @@ This operation looks a bit esoteric but the idea is simple. Let's take an exampl
 levels are provinces further divided into regions. You want a shapefile of these provinces but you only have for now a shapefile of
 the regions. 
 
+If in your "regions" shapefile, the attribute table contains the province name for each region feature (see table below), then you can 
+dissolve/merge the polygons by attribute (in our case "province").
 
 | province | region |
 |----------|--------|
@@ -27,28 +29,17 @@ the regions.
 | prov_b   | reg_4  |
 | ...      | ...    |
 
-
-
-
+To do so go through the following steps:
 
 ```
-Open: data/data/bluetongue_2014_2015_edit/bluetongue_2014_2015_edit.shp and overlay it over Google Hybrid
-background layer.
+Open: data/grc_admin3/grc_admin3.shp
 ```
-
-To edit a layer, you need to toggle the "Editing mode", there several ways to do so.
-
-First:
-```
-[In Layers Panel]
-Select (click) the layer of interest, here blueongue_2014_2015_edit
-```
-
-then,
-
-Option 1:
 
 ```
 [In QGIS top menu] 
-Layer ▸ Toggle Editing
-Open the attribute table
+Vector ▸ Geoprocessing Tools ▸ Dissolve...
+```
+
+then reproduce the settings below (save shapefile created as: "grc_level3_to_level2):
+
+![Dissolve](img/dissolve.png)
