@@ -14,7 +14,7 @@ data/bluetongue_2014_2015_edit
 
 ### 1. Add, edit and delete features via attribute table
 ```
-Open: data/data/bluetongue_2014_2015_edit/bluetongue_2014_2015_edit.shp and overlay it over Google Hybrid
+Open: data/bluetongue_2014_2015_edit/bluetongue_2014_2015_edit.shp and overlay it over Google Hybrid
 background layer.
 ```
 
