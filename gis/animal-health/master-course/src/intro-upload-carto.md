@@ -23,5 +23,8 @@ The advandage is that you don't need to install, maintain them, this is done by 
 
 To create a free account, follow this link [https://carto.com/signup](https://carto.com/signup).
 
+To have an overview of the beautiful maps/visualization you can create, follow this link: [https://carto.com/gallery/](https://carto.com/gallery/)
+
+
 
 
