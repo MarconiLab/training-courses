@@ -36,7 +36,7 @@ QGIS
   * Time series animation with MMQGIS
 
 ONLINE MAPPING WITH CARTO (CARTODB)
-  * Introduction & data upload
+  * [Introduction & data upload]
   * Create an animation of disease spread over time
   * Disseminate your visualization online
   
