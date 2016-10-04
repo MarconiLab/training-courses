@@ -40,7 +40,13 @@ To upload a new dataset:
 [In Carto Top Menu]
 Select "Your datasets"
 
-from there simply click on button "NEW DATASET" (top-left)
+from there simply click on button "NEW DATASET" (top-right)
 
-and drag and drop "bluetongue_carto.csv" file you will find under data/ folder
+drag and drop "bluetongue_carto.csv" file you will find under data/ folder
+
+and finally
+
+click on "CONNECT DATASET" button (bottom-right)
 ```
+Your dataset is uploaded! Carto allows you to consider your dataset from two prespective/representations (as in QGIS): a tabular and map representations.
+
