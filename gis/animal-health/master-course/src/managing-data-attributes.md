@@ -16,8 +16,8 @@ data/managing-layer-attributes/
 ### 1. Rename, change, add, delete table attributes
 
 ```
-Install "Table Manager" plugin if not already installed. If/when installed the plugin needs to be
-activated (checkbox on).
+Install "Table Manager" plugin if not already installed. 
+If/when installed the plugin needs to be activated (checkbox on).
 
 Open: data/managing-layer-attributes/managing-layer-attributes.shp
 
