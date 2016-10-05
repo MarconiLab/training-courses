@@ -12,7 +12,8 @@ data/bluetongue_2014_2015_IT
 ```
 ## Exercise outline & memos
 
-A buffer in GIS is simply a zone around a map feature measured in units of distance or time. A buffer is useful for [proximity analysis](https://en.wikipedia.org/wiki/Proximity_analysis).
+A buffer in GIS is simply a zone around a map feature measured in units of distance or time.
+A buffer is useful for [proximity analysis](https://en.wikipedia.org/wiki/Proximity_analysis).
 
 ### Creating zones (buffers)
 
@@ -28,11 +29,15 @@ Access Geoprocessing "Buffer" tool:
 Vector ▸ Geoprocessing Tools ▸ Buffer(s)...
 ```
 
-Once "Buffers" window/dialog opened, you will notice that a distance should be specified. If you take a look at current CRS of the "bluetongue" layer (see for instance that coordinates are in degrees in the status bar), you will notice that this layer is not projected and use WGS84 (World Geodetic System) as coordinate system and ellipsoid of reference. So distance should be specified in degrees. 
+Once "Buffers" window/dialog opened, you will notice that a distance should be specified.
+If you take a look at current CRS of the "bluetongue" layer (see for instance that coordinates
+are in degrees in the status bar), you will notice that this layer is not projected and use WGS84
+(World Geodetic System) as coordinate system and ellipsoid of reference. So distance should be specified in degrees. 
 
 To be able to specify distances in meters for instance, we need to use a map projection.
 ```
-Save "bluetongue_2014_2015_IT.shp" as "bluetongue_2014_2015_IT_merc.shp using "Mercator" projection for instance.
+Save "bluetongue_2014_2015_IT.shp" as "bluetongue_2014_2015_IT_merc.shp using "Mercator" 
+projection for instance.
 Reminder: click right on the layer ▸ Save As... ▸ and choose "Google Mercator" projection
 ```
 
