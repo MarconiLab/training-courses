@@ -117,9 +117,14 @@ Select a country, let's say "Brazil"
 [In QGIS top menu] 
 Vector ▸ Spatial Query ▸ Spatial Query
 
-[In "Select source features from" dropdown], choose: "ne_110m_populated_places"
-[In "Where the features" dropdown], choose: "Within"
-[In "Reference features of"], choose: "ne_110m_admin_0_countries" (check selected geometries checkbox)
+[In "Select source features from" dropdown]
+choose: "ne_110m_populated_places"
+
+[In "Where the features" dropdown]
+choose: "Within"
+
+[In "Reference features of"]
+choose: "ne_110m_admin_0_countries" (check selected geometries checkbox)
 
 Then click "Apply"
 ```
