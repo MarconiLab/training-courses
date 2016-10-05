@@ -30,7 +30,10 @@ To get the longitude and latitude of a specific location in [Google Maps](https:
 4. A card appears at the bottom of the screen with more info.
 ```
 
-To get the longitude and latitude of your location while on the field, you will find various mobile applications of interest for Android or iPhone. For instance (but you will easily find many others), you can install: [Polaris Navigation](https://play.google.com/store/apps/details?id=com.discipleskies.android.polarisnavigation&hl=en) application on Android.
+To get the longitude and latitude of your location while on the field, you will find various
+mobile applications of interest for Android or iPhone. For instance (but you will easily find many others),
+you can install:
+[Polaris Navigation](https://play.google.com/store/apps/details?id=com.discipleskies.android.polarisnavigation&hl=en) application on Android.
 
 ### 2. Converting longitude, latitude
 Longitude and latitude can be represented in different units: 
