@@ -1,3 +1,7 @@
+---
+title: Training courses, Franck Albinet
+---
+
 # TRAINING COURSES
 
 ## GIS
