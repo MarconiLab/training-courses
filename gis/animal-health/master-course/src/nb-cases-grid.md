@@ -57,7 +57,8 @@ Vector ▸ Spatial Query ▸ Spatial Query
 Then click "Apply"
 
 [In Layers Panel] 
-Click right on "grid_0_15" and save as... (be sure to check "Save only selected features") grid_0_15_selected.shp
+Click right on "grid_0_15" and save as... 
+(be sure to check "Save only selected features") grid_0_15_selected.shp
 ```
 
 ![Select Grid](img/select-grid.png)

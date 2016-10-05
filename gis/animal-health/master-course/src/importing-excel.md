@@ -52,9 +52,10 @@ Congrats, you have created your first GIS layer / shapefile from scratch !
 ### 3. Overlaying layer created over GoogleMap or OpenStreeMap layers
 
 ```
-Install "OpenLayers Plugin" if not already installed. If/when installed the plugin needs to be
-activated (checkbox on).
-````
+Install "OpenLayers Plugin" if not already installed. If/when installed the plugin
+needs to be activated (checkbox on).
+```
+
 ```
 [In QGIS top menu] 
 Web ▸ OpenLayers plugin ▸ Google Maps ▸ Google Hybrid

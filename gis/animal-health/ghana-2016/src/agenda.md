@@ -33,13 +33,12 @@ QGIS
   
 ## [Day 4](day4.md)
   * [Mapping number of cases by administrative boundaries](nb-cases-admin.md)
-  * Time series animation with MMQGIS
 
 ONLINE MAPPING WITH CARTO (CARTODB)
   * [Introduction & data upload](intro-upload-carto.md)
   * [Create & disseminate an animation of disease spread over time](disease-spread-carto.md)
   
 ## [Day 5](day5.md)
-  * Practice your skill with another dataset
+  * Practice your skill with a new dataset
   * Course wrapup
 

@@ -25,13 +25,13 @@ In a new project, open first "bluetongue_2014_2015.shp" recently created includi
 
 ```
 data/bluetongue_2014_2015/bluetongue_2014_2015.shp
-````
+```
 
 then open the administrative level 3 boundaries shapefile for Greece:
 
 ```
 data/grc_admin3/grc_admin3.shp
-````
+```
 
 Now we will sum the number of cases by admin. level 3 (following the same step as in previous module)
 
@@ -81,7 +81,8 @@ Another expressive mapping technique in that case it to use proporional circle, 
 ```
 First make a copy of "grc_admin3_sum_cases.shp" by saving it as "grc_admin3_sum_cases_bubbles.shp"
 
-Open the properties dialog for the new layer created and select the "Diagrams" tab, then reproduce the 4 following settings
+Open the properties dialog for the new layer created and select the "Diagrams" tab,
+then reproduce the 4 following settings
 ```
 
 ![Bubble 1](img/bubble_1.png)
