@@ -20,21 +20,25 @@ cp ../master-course/src/disease-spread-carto.md ./src/
 echo "Source files (.md) files copied successfully!"
 
 # copy img
-#cp -R ../master-course/src/img ./src/
-#echo "Images copied successfully!"
+cp -R ../master-course/src/img ./src/
+echo "Images copied successfully!"
 
 # copy data
-#cp -R ../master-course/data .
-#echo "Data copied successfully!"
+cp -R ../master-course/data .
+echo "Data copied successfully!"
 
 # copy powerpoint presentations
-#cp -R ../master-course/ppt .
-#echo "Presentation copied successfully!"
+cp -R ../master-course/ppt .
+echo "Presentations copied successfully!"
 
 # convert .md files to .pdf
+cp -R src/img .
 for i in $( ls src/*.md ); do
   filename=$(basename "$i")
   filename="${filename%.*}"
-  pandoc -f markdown_github -t beamer $i -o "./pdf/$filename.pdf" 
-  echo $i "converted"
+  pandoc -f markdown_github $i --latex-engine=xelatex --variable geometry:"top=1.5cm, bottom=2.5cm, left=1.5cm, right=1.5cm" -o "pdf/$filename.pdf"
+  echo $i "converted to pdf"
 done
+rm -R img
+
+

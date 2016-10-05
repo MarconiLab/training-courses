@@ -14,12 +14,12 @@ data/grc_admin3
 
 ###  Dissolving/merging polygon features by attribute
 
-This operation looks a bit esoteric but the idea is simple. Let's take an example, imagine a country where the main administrative
-levels are provinces further divided into regions. You want a shapefile of these provinces but you only have for now a shapefile of
-the regions. 
+This operation looks a bit esoteric but the idea is simple. Let's take an example, imagine
+a country where the main administrative levels are provinces further divided into regions.
+You want a shapefile of these provinces but you only have for now a shapefile of the regions. 
 
-If in your "regions" shapefile, the attribute table contains the province name for each region feature (see table below), then you can 
-dissolve/merge the polygons by attribute (in our case "province").
+If in your "regions" shapefile, the attribute table contains the province name for each region feature
+(see table below), then you can dissolve/merge the polygons by attribute (in our case "province").
 
 | province | region |
 |----------|--------|
