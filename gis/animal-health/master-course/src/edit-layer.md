@@ -14,8 +14,8 @@ data/bluetongue_2014_2015_edit
 
 ### 1. Add, edit and delete features via attribute table
 ```
-Open: data/bluetongue_2014_2015_edit/bluetongue_2014_2015_edit.shp and overlay it over Google Hybrid
-background layer.
+Open: data/bluetongue_2014_2015_edit/bluetongue_2014_2015_edit.shp and overlay
+it over Google Hybrid background layer.
 ```
 
 To edit a layer, you need to toggle the "Editing mode", there several ways to do so.
@@ -54,7 +54,8 @@ Open the attribute table
 
 Option 4:
 ```
-Simply directly open the attribute table and toggle editing via the "Pencil" icon (top left toolbar)
+Simply directly open the attribute table and toggle editing via the
+"Pencil" icon (top left toolbar)
 ```
 Once attribute table opened and editing mode toggled, the top toolbar will give you all the required options: add, delete and edit features (see screenshot below).
 
