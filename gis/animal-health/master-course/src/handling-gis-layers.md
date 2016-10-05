@@ -118,13 +118,13 @@ Select a country, let's say "Brazil"
 Vector ▸ Spatial Query ▸ Spatial Query
 
 [In "Select source features from" dropdown]
-choose: "ne_110m_populated_places"
+Choose: "ne_110m_populated_places"
 
 [In "Where the features" dropdown]
-choose: "Within"
+Choose: "Within"
 
 [In "Reference features of"]
-choose: "ne_110m_admin_0_countries" (check selected geometries checkbox)
+Choose: "ne_110m_admin_0_countries" (check selected geometries checkbox)
 
 Then click "Apply"
 ```
