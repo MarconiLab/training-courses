@@ -7,16 +7,6 @@
 cp ../master-course/src/resources.md ./src/
 cp ../master-course/src/qgis-setup.md ./src/
 cp ../master-course/src/handling-gis-layers.md ./src/
-cp ../master-course/src/importing-excel.md ./src/
-cp ../master-course/src/managing-data-attributes.md ./src/
-cp ../master-course/src/buffers.md ./src/
-cp ../master-course/src/collect-lon-lat.md ./src/
-cp ../master-course/src/edit-layer.md ./src/
-cp ../master-course/src/nb-cases-grid.md ./src/
-cp ../master-course/src/nb-cases-admin.md ./src/
-cp ../master-course/src/dissolving-poly.md ./src/
-cp ../master-course/src/intro-upload-carto.md ./src/
-cp ../master-course/src/disease-spread-carto.md ./src/
 echo "Source files (.md) files copied successfully!"
 
 # copy img
