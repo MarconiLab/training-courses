@@ -1,8 +1,8 @@
 > [GIS fundamentals | Training Course](agenda.md) ▸ **Agenda**
 
-*LAB: Internet-based geospatial information visualization tools, March 2017*
+**LAB: INTERNET-BASED GEOSPATIAL INFORMATION VISUALIZATION TOOLS, MARCH 2017**
 
-FUNDAMENTAL GIS CONCEPTS THROUGHOUT LAB.
+Fundamental GIS conceptes covered
   * Concept of layer
   * Geographical data representation: vector, raster (image)
   * Layers & Geometry types (points, lines & polygons)
