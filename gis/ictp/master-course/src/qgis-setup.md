@@ -16,6 +16,6 @@ Plugins ▸ Manage and Install Plugins ...
 ```
 
 During this course, the following plugins will be installed:
-* Spatial Query Plugin
-* Table Manager
-* mmqgis (optional)
+* Spatial Query
+* OpenLayers 
+* MMQGIS
