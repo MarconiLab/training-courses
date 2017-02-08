@@ -2,17 +2,19 @@
 
 **LAB: INTERNET-BASED GEOSPATIAL INFORMATION VISUALIZATION TOOLS, MARCH 2017**
 
-Fundamental GIS conceptes covered
-  * Concept of layer
-  * Geographical data representation: vector, raster (image)
-  * Layers & Geometry types (points, lines & polygons)
-  * Shapefiles: a de facto GIS layer standard
-  * Coordinate Reference System (CRS) & map projection
-  * Notion of scale
-  * Different maps for different purposes: thematic mapping, Digital Elevation Models, topographic, ...
-  * Intro. to semiology of graphics & thematic mapping
-  * Online web mapping/geospatial visualization ecosystem overview
-  * Notions of spatial query & spatial analysis
+```
+Fundamental GIS conceptes covered:
+  - Concept of layer
+  - Geographical data representation: vector, raster (image)
+  - Layers & Geometry types (points, lines & polygons)
+  - Shapefiles: a de facto GIS layer standard
+  - Coordinate Reference System (CRS) & map projection
+  - Notion of scale
+  - Different maps for different purposes: thematic mapping, Digital Elevation Models, topographic, ...
+  - Intro. to semiology of graphics & thematic mapping
+  - Online web mapping/geospatial visualization ecosystem overview
+  - Notions of spatial query & spatial analysis
+```
 
 ## [Day 1](day1.md)
 INTRODUCTION
