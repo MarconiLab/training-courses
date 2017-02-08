@@ -8,7 +8,10 @@
 ### COORDINATE REFERENCE SYSTEM & MAP PROJECTIONS
 * Notion of map scale [(https://en.wikipedia.org/wiki/Scale_(map))](https://en.wikipedia.org/wiki/Scale_(map))
 * Map projections explained by Carlos Furuti [http://www.progonos.com/furuti/MapProj/Normal/TOC/cartTOC.html](http://www.progonos.com/furuti/MapProj/Normal/TOC/cartTOC.html)
-* Comparing Map projections [http://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e](http://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e)
+* Comparing Map projections distortions: [http://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e](http://bl.ocks.org/syntagmatic/ba569633d51ebec6ec6e)
+* Map projection transitions [https://www.jasondavies.com/maps/transition/](https://www.jasondavies.com/maps/transition/)
+* What your favorite map projection says about you [https://xkcd.com/977/](https://xkcd.com/977/)
+* In the style of Buckminster Fuller’s Airocean World Map. [https://www.jasondavies.com/maps/airocean/](https://www.jasondavies.com/maps/airocean/)
 
 ### VISUAL ENCODINGS
 * Visual encoding [http://vda.univie.ac.at/Teaching/Vis/13s/LectureNotes/05_visual_encodings.pdf](http://vda.univie.ac.at/Teaching/Vis/13s/LectureNotes/05_visual_encodings.pdf)
