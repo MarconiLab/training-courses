@@ -2,7 +2,7 @@
 
 *The use case of animal diseases monitoring, Accra, Ghana, 10-14 October 2016*
 
-## [Day 1]()
+## [Day 1](day1.md)
 INTRODUCTION
   * Course objectives & setup [lectures & practical classes]
   * [Course resources and materials](resources.md)
