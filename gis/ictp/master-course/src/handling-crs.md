@@ -8,21 +8,22 @@ By the end of this module, you will know how to:
 ## Data
 Data to be used in this module can be found in the following folders:
 ```
-data/ne_110m_admin_0_countries/
+data/map_projection/
 ```
 ## Exercise outline & memos
 
 ### 1. Changing CRS on the fly
 Open: 
 ```
-data/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp
+data/map_projection/world_countries_wgs84.shp
 ```
 and
 ```
 [In QGIS top menu] 
-Project ▸ Project Properties ▸ Add Vector Layer  ▸ CRS (tab) ▸ Check "Enable on the fly CRS transformation"
+Project ▸ Project Properties ▸ CRS (tab) ▸ Check "Enable on the fly CRS transformation"
+Select a projection of your choice and click 'Apply' (try Google Mercator and Eckert VI)
 ```
-Play around with various CRS, apply and see the variety of world representation and their respective distortion (for instance select: Mercator, or World_Bonne.
+Tip: Use the 'Filter' input box to filter out the projection list under "Coordinate Reference System" panel.
 
 Notice as well that in the status bar (bottom part of the screen), coordinates are not anymore in lon, lat but in x,y meters.
 
@@ -35,3 +36,11 @@ In the previous case, the CRS associated to the layer/shapefile was not changed 
 Click right on the layer of interest and select 'Save As'
 then you change the CRS via the CRS dropdown and save it (preferably with an explicit name)
 ```
+
+```
+1. Save 'world_countries_wgs84.shp' layer successively using Google Mercator projection and name it 'world_countries_mercator.shp'
+2. Save 'world_countries_wgs84.shp' layer successively using Eckert VI projection and name it 'world_countries_eckert_VI.shp'
+Open both of them and compare visual aspect
+```
+Warning: check that the checkbox "Enable on the fly CRS transformation" is unchecked.
+
