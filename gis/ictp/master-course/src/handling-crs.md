@@ -1,5 +1,7 @@
 > [GIS fundamentals | Training Course](agenda.md) ▸ **Handling Coordinate Reference Systems (CRS)**
 
+![Mercator/Eckert VI overlay](img/mercator_eckert.png)
+
 ## Targeted skills
 By the end of this module, you will know how to:
 * change Coordinate Reference System and map projection on the fly
@@ -44,4 +46,4 @@ Open both of them and compare visual aspect
 ```
 Warning: check that the checkbox "Enable on the fly CRS transformation" is unchecked.
 
-![Mercator/Eckert VI overlay](img/mercator_eckert.png)
+
