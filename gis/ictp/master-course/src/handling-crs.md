@@ -1,11 +1,11 @@
 > [GIS fundamentals | Training Course](agenda.md) ▸ **Handling Coordinate Reference Systems (CRS)**
 
-![Mercator/Eckert VI overlay](img/mercator_eckert.png)
-
 ## Targeted skills
 By the end of this module, you will know how to:
 * change Coordinate Reference System and map projection on the fly
 * change & persist CRS and map projection of a shapefile
+
+![Mercator/Eckert VI overlay](img/mercator_eckert.png)
 
 ## Data
 Data to be used in this module can be found in the following folders:
