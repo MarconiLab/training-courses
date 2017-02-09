@@ -44,3 +44,4 @@ Open both of them and compare visual aspect
 ```
 Warning: check that the checkbox "Enable on the fly CRS transformation" is unchecked.
 
+![Table manager](img/table-manager.png)
