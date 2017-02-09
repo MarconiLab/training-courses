@@ -30,5 +30,3 @@ for i in $( ls src/*.md ); do
   echo $i "converted to pdf"
 done
 rm -R img
-
-

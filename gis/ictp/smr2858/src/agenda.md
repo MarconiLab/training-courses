@@ -23,10 +23,10 @@ INTRODUCTION
 
 QGIS INTRO.
   * [Install & set up](qgis-setup.md)
-  * [Handling GIS layers (opening, overlaying, selecting features, basic styling and saving as project)](handling-gis-layers.md)
-  * [Importing a georeferenced text file & overlaying it over Google Maps](importing-csv.md)
-  * [Handling Coordinate Reference Systems (CRS)](handling-crs.md)
   * [Handling QGIS plugins](qgis-setup.md)
+  * [Handling GIS layers (opening, overlaying, selecting features, basic styling and saving as project)](handling-gis-layers.md)
+  * [Handling Coordinate Reference Systems (CRS) & map projections](handling-crs.md)
+  * [Importing a georeferenced text file & overlaying it over Google Maps](importing-csv.md)
 
 THEMATIC MAPPING INTRO. WITH SAFECAST DATA
   * [Punctual data mapping & overplotting](qgis-setup.md)
@@ -36,8 +36,14 @@ THEMATIC MAPPING INTRO. WITH SAFECAST DATA
 ## [Day 2](day2.md)
   * Recap. & finalizing day 1
 
+THEMATIC MAPPING INTRO. WITH SAFECAST DATA (CONTINUED)
+    * [Addressing overplotting with spatial aggregation](tbd)
+    * [Choropleth & data binning](tbd)
+
 ONLINE MAPPING WITH CARTO
   * [Online account - subscribing to free plan]()
   * [Introduction & Safecast data upload](intro-upload-carto.md)
   * [Basic thematic mapping](disease-spread-carto.md)
   * [Illustration of QGIS ▸ CARTO workflow](tbd)
+
+## [Day 3](day3.md)
