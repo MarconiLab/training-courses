@@ -15,34 +15,21 @@ data/safecast_subset.csv
 ### 1. CSV format
 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) stands for "Comma-separated value" and is a file format allowing to store tabular data in plain text.
 
-For instance, let's consider that we measured ionizing radiation at a particular location and time, we could store the data in a single file with a first row containing the name of the attributes measured:
+For instance, let's consider that we measured ionizing radiation at a particular location and time, we could store the data in a single file with a first row containing the name of the attributes measured separated by commas:
 
-* id: unique identifier of the measurement
-* value: measured value
-* captured_at: time of measuring
-* latitude & longitude: georeference
-* unit: unit of measurement (here in Counts per minute)
+* **id**: unique identifier of the measurement
+* **value**: measured value
+* **captured_at**: time of measuring
+* **latitude & longitude**: georeference
+* **unit**: unit of measurement (here in Counts per minute)
 
+and a series of row containing attribute's values for each single measurement separated by commas:
 ```
 id,value,captured_at,latitude,longitude,unit
 15500999,20283,2012-01-18,37.414865,141.028495,cpm
 15500998,19713,2012-01-18,37.414991666667,141.028215,cpm
 15501000,20667,2012-01-18,37.414816666667,141.02856833333,cpm
 ...
-```
-
-
-### 1. Converting Excel file format to csv 
-
-Before being able to import your data into QGIS as a plain GIS layer, you need to pre-process it via Microsoft Excel or OpenOffice for instance.
-To do so for instance with Microsoft Excel:
-```
-Open: data/bluetongue_2014_2015.xls
-
-[In Excel top menu] 
-File ▸ Save As..
-[In Save window/dialog]
-Change "Format" dropdown to "Windows Comma Separated (.csv)
 ```
 
 ### 2. Importing/converting csv file with lat, lon attributes into GIS layer
