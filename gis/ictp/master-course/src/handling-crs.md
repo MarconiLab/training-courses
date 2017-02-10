@@ -5,6 +5,8 @@ By the end of this module, you will know how to:
 * change Coordinate Reference System and map projection on the fly
 * change & persist CRS and map projection of a shapefile
 
+![Mercator/Eckert VI overlay](img/mercator_eckert.png)
+
 ## Data
 Data to be used in this module can be found in the following folders:
 ```
@@ -44,4 +46,4 @@ Open both of them and compare visual aspect
 ```
 Warning: check that the checkbox "Enable on the fly CRS transformation" is unchecked.
 
-![Mercator/Eckert VI overlay](img/mercator_eckert.png)
+
