@@ -5,6 +5,8 @@ By the end of this module, you will know how to:
 * import/convert csv file with lat, lon attributes into GIS layer
 * overlay layer created over GoogleMap, OpenStreeMap, ... background layers
 
+![Data over OSM](img/data-over-osm.png)
+
 ## Data
 Data to be used in this module can be found in the following folders:
 ```
@@ -64,9 +66,10 @@ needs to be activated (checkbox on).
 
 ```
 [In QGIS top menu] 
-Web ▸ OpenLayers plugin ▸ Google Maps ▸ Google Hybrid
+Web ▸ OpenLayers plugin ▸ OpenStreetMap ▸ OSM Humanitarian Data Model
 ```
 
 Warning: Check order of layers in the Layers panel as the point layer might be lower in the stack
+
 
 
