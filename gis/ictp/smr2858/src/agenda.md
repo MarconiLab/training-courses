@@ -30,8 +30,6 @@ QGIS INTRO.
 
 THEMATIC MAPPING INTRO. WITH SAFECAST DATA
   * [Punctual data mapping & overplotting](qgis-setup.md)
-  * [Spatial aggregation in a grid](tbd)
-  * [Choropleth & data binning](tbd)
 
 ## [Day 2](day2.md)
   * Recap. & finalizing day 1
@@ -44,6 +42,7 @@ ONLINE MAPPING WITH CARTO
   * [Online account - subscribing to free plan]()
   * [Introduction & Safecast data upload](intro-upload-carto.md)
   * [Basic thematic mapping](disease-spread-carto.md)
-  * [Illustration of QGIS ▸ CARTO workflow](tbd)
 
 ## [Day 3](day3.md)
+  * Recap. & finalizing day 2
+  * [Illustration of QGIS ▸ CARTO workflow](tbd)
