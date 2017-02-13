@@ -2,17 +2,32 @@
 
 ## Targeted skills
 By the end of this module, you will know how to:
-* import/convert csv file with lat, lon attributes into GIS layer
-* overlay layer created over GoogleMap, OpenStreeMap, ... background layers
+* 
+
 
 ![Data over OSM](img/data-over-osm.png)
 
 ## Data
 Data to be used in this module can be found in the following folders:
 ```
-data/safecast_subset.csv
+data/punctual_data
 ```
 ## Exercise outline & memos
+
+### 1. Open shapefile & background map
+
+Open:
+```
+data/punctual_data/safecast.shp
+```
+
+and add a background map:
+```
+[In QGIS top menu] 
+Web ▸ OpenLayers plugin ▸ OpenStreetMap ▸ OSM Humanitarian Data Model
+```
+
+
 
 ### 1. CSV format
 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) stands for "Comma-separated value" and is a file format allowing to store tabular data in plain text.
