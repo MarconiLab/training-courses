@@ -34,10 +34,10 @@ To open the dialog including thematic mapping settings:
 ```
 [In QGIS top menu] 
 Layer ▸ Properties ...
-
 or
-
-simply 'click right on safecast layer' and choose 'properties' item
+simply click right on 'safecast' layer and choose 'properties' item
+or 
+even simpler by double clicking on 'safecast' layer
 ```
 
 ### 3. Define thematic mapping settings
