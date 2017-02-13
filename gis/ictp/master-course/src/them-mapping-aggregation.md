@@ -73,9 +73,20 @@ You need to save the selection as a new layer now:
 2. Save As 'exercises/grid_selection.shp'
 3. IMPORTANT: check 'Save only selected features' checkbox 
 ```
+### 3. Aggregate measurements in grid
+Next step is to aggregate measurements (puncual data).
 
+```
+[In QGIS top menu] 
+Vector ▸ Analysis tools ▸ Points in Polygon ...
+```
+![points in pokygon](img/dialog_count_points_in_poly.png)
 
+Now, if you open the attribute table of the newly created grid (the aggregated one) you should have two new attribtues: nb_points and value_sum (which contains the value of highest measurements 'contained' by the hexagon).
 
+### 3. Thematic mapping
+You are now in a position to perform a thematic analysis in the same spirit as in
+[Thematic mapping of punctual data](them-mapping-points.md).
 
-
+This is left as exercise ...
 
