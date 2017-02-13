@@ -17,6 +17,7 @@
 * Visual encoding [http://vda.univie.ac.at/Teaching/Vis/13s/LectureNotes/05_visual_encodings.pdf](http://vda.univie.ac.at/Teaching/Vis/13s/LectureNotes/05_visual_encodings.pdf)
 * Pre-attentive processing [https://www.youtube.com/watch?v=UFNzATczkDU](https://www.youtube.com/watch?v=UFNzATczkDU)
 * Colour brewer [http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
+* Issue of overplotting [https://www.perceptualedge.com/articles/visual_business_intelligence/over-plotting_in_graphs.pdf](https://www.perceptualedge.com/articles/visual_business_intelligence/over-plotting_in_graphs.pdf)
 
 ### VARIOUS TYPE OF MAPS
 * Maps for different purposes: [topographic](https://en.wikipedia.org/wiki/Topographic_map), [choropleth (thematic)](https://bl.ocks.org/mbostock/4060606), [thematic-bubble-map](https://bost.ocks.org/mike/bubble-map/), [heatmap](https://carto.com/docs/tutorials/heatmap/), ...
