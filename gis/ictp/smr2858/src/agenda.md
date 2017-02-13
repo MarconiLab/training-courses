@@ -29,14 +29,13 @@ QGIS INTRO.
   * [Importing a georeferenced text file & overlaying it over Google Maps](importing-csv.md)
 
 THEMATIC MAPPING INTRO. WITH SAFECAST DATA
-  * [Punctual data mapping & overplotting](them-mapping-points.md)
+  * [Punctual data mapping](them-mapping-points.md)
 
 ## [Day 2](day2.md)
   * Recap. & finalizing day 1
 
 THEMATIC MAPPING INTRO. WITH SAFECAST DATA (CONTINUED)
-    * [Addressing overplotting with spatial aggregation](tbd)
-    * [Choropleth & data binning](tbd)
+  * [Addressing overplotting with spatial aggregation](tbd)
 
 ONLINE MAPPING WITH CARTO
   * [Online account - subscribing to free plan]()
