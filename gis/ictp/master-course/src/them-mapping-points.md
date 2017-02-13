@@ -2,8 +2,9 @@
 
 ## Targeted skills
 By the end of this module, you will know how to:
-* 
-
+* visualize quantitative data spatial distribution using colour visual encoding
+* choose an appropriate color palette/ramp (choropleth map)
+* choose a data discretization method (data binning)
 
 ![Data over OSM](img/data-over-osm.png)
 
@@ -15,7 +16,6 @@ data/punctual_data
 ## Exercise outline & memos
 
 ### 1. Open shapefile & background map
-
 Open:
 ```
 data/punctual_data/safecast.shp
@@ -25,6 +25,19 @@ and add a background map:
 ```
 [In QGIS top menu] 
 Web ▸ OpenLayers plugin ▸ OpenStreetMap ▸ OSM Humanitarian Data Model
+```
+
+### 2. Define thematic mapping method
+
+To open the dialog including thematic mapping settings:
+
+```
+[In QGIS top menu] 
+Layer ▸ Properties ...
+
+or
+
+simply 'click right on safecast layer' and choose 'properties' item
 ```
 
 
