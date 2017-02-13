@@ -12,14 +12,16 @@ By the end of this module, you will know how to:
 ## Data
 Data to be used in this module can be found in the following folders:
 ```
-data/punctual_data
+data/agg_data
 ```
 ## Exercise outline & memos
+
+Our goal in that exercise is to aggregate measurements in a custom grid in order to overcome the issue of overplotting. In our case we will take the maximum value of measurements 'covered' by each specific grid cell.
 
 ### 1. Open shapefile & background map
 Open:
 ```
-data/punctual_data/safecast.shp
+data/agg_data/safecast.shp
 ```
 
 and add a background map:
@@ -28,48 +30,63 @@ and add a background map:
 Web ▸ OpenLayers plugin ▸ OpenStreetMap ▸ OSM Humanitarian Data Model
 ```
 
-### 2. Access thematic mapping settings
+### 2. Create a grid
+Creating a grid (rectangle or hexagons) of specified resolution and extent can be done using basic QGIS install but in our case in order to simplify the process we will use MMQGIS plugin.
 
-To open the dialog including thematic mapping settings:
+[Install MMQGIS plugin](gis-setup.md)
 
 ```
 [In QGIS top menu] 
-Layer ▸ Properties ...
-or
-simply click right on 'safecast' layer and choose 'properties' item
-or 
-even simpler by double clicking on 'safecast' layer
+MMQGIS ▸ Create ▸ Create Grid Layer
 ```
+Fill MMQGIS grid dialog as below:
 
-### 3. Define thematic mapping settings
-
-To associate values measurements (in our case ionizing radion in counts per minute) with a colours you need to make the following choices:
-
-1. association rule: 'Graduated'
-2. column of the attribute table to be looked up: 'value'
-3. method to be used: 'Color'
-4. color ramp
-5. classification method and number of classes
-
-![dialog](img/them-mapping-points-1.png)
-
-To choose the colour ramp:
+![mmqgis grid dialog](img/mmqgis-grid-dialog.png)
 
 ```
-1. Click 'Color ramp' selector ▸ 'New color ramp'
-2. Choose 'ColorBrewer'
-3. scheme name 'YlOrRd'
-4. number of colors: 5
+Save create grid as exercises/grid.shp
 ```
-![palette](img/them-mapping-palette.png)
 
-### 5. Fine-tuning
-At this stage all ingredients are in place but polishing is still required:
+### 2. Spatial query
+We will perform a simple spatial query allowing to select grid cells containing measurements only. 
+To do so, you will need to install 'Spatial Query' plugin.
 
-1. tweak symbol size: for instance 1.5
-2. make symbol outline (contour) transparent
-3. add transparency to the marker fill as well 40-50%
+[Install Spatial Query plugin](gis-setup.md)
 
-These last steps are justified in order to prevent or at least minimize the issue of [overplotting](https://www.perceptualedge.com/articles/visual_business_intelligence/over-plotting_in_graphs.pdf). 
+```
+[In QGIS top menu] 
+Vector ▸ Spatial Query ▸ Spatial Query
+```
+![spatial query dialog](img/spatial-query-dialog.png)
 
+```
+Click Apply
+```
+You should get another dialog listing all features (hexagons) selected. Notice as well that selected hexagons get highlighted in "yellow".
+
+![spatial query selection](img/spatial-query-selection.png)
+
+You need to save the selection as a new layer now:
+
+```
+1. Click right on 'grid' layer
+2. Save As 'exercises/grid_selection.shp'
+3. IMPORTANT: check 'Save only selected features' checkbox 
+```
+### 3. Aggregate measurements in grid
+Next step is to aggregate measurements (puncual data).
+
+```
+[In QGIS top menu] 
+Vector ▸ Analysis tools ▸ Points in Polygon ...
+```
+![points in pokygon](img/dialog_count_points_in_poly.png)
+
+Now, if you open the attribute table of the newly created grid (the aggregated one) you should have two new attribtues: nb_points and value_sum (which contains the value of highest measurements 'contained' by the hexagon).
+
+### 3. Thematic mapping
+You are now in a position to perform a thematic analysis in the same spirit as in
+[Thematic mapping of punctual data](them-mapping-points.md).
+
+This is left as exercise ...
 
