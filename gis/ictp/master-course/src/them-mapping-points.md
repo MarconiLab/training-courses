@@ -57,9 +57,18 @@ To choose the colour ramp:
 ```
 1. Click 'Color ramp' selector ▸ 'New color ramp'
 2. Choose 'ColorBrewer'
-3. scheme name 'YlOrRd
+3. scheme name 'YlOrRd'
 4. number of colors: 5
 ```
 ![palette](img/them-mapping-palette.png)
+
+### 5. Fine-tuning
+At this stage all ingredients are in place but polishing is still required:
+
+1. tweak symbol size: for instance 1.5
+2. make symbol outline (contour) transparent
+3. add transparency to the marker fill as well 40-50%
+
+These last steps are justified in order to prevent or at least minimize the issue of [overplotting](https://www.perceptualedge.com/articles/visual_business_intelligence/over-plotting_in_graphs.pdf). 
 
 
