@@ -42,6 +42,13 @@ even simpler by double clicking on 'safecast' layer
 
 ### 3. Define thematic mapping settings
 
+To associate values measurements (in our case ionizing radion in counts per minute) with a colours you need to make the following choices:
+
+1. association rule: 'Graduated'
+2. column of the attribute table to be looked up: 'value'
+3. method to be used: 'Color'
+4. color ramp
+5. classification method and number of classes
 
 ![dialog](img/them-mapping-points-1.png)
 
