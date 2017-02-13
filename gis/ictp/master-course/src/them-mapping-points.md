@@ -52,4 +52,14 @@ To associate values measurements (in our case ionizing radion in counts per minu
 
 ![dialog](img/them-mapping-points-1.png)
 
+To choose the colour ramp:
+
+```
+1. Click 'Color ramp' selector ▸ 'New color ramp'
+2. Choose 'ColorBrewer'
+3. scheme name 'YlOrRd
+4. number of colors: 5
+```
+![palette](img/them-mapping-palette.png)
+
 
