@@ -16,6 +16,8 @@ data/agg_data
 ```
 ## Exercise outline & memos
 
+Our goal in that exercise is to aggregate measurements in a custom grid in order to overcome the issue of overplotting. In our case we will take the maximum value of measurements 'covered' by each specific grid cell.
+
 ### 1. Open shapefile & background map
 Open:
 ```
@@ -43,7 +45,19 @@ Fill MMQGIS grid dialog as below:
 
 ```
 Save create grid as exercises/grid.shp
-
 ```
 
-### 2. Spatial query: select grid cells containing measurements only
+### 2. Spatial query
+We will perform a simple spatial query allowing to select grid cells containing measurements only. 
+To do so, you will need to install 'Spatial Query' plugin.
+
+[Install Spatial Query plugin](gis-setup.md)
+
+```
+[In QGIS top menu] 
+Vector ▸ Spatial Query ▸ Spatial Query
+```
+![spatial query dialog](img/spatial-query-dialog.png)
+
+
+
