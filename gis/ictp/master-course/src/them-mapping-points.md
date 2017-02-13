@@ -34,15 +34,32 @@ To open the dialog including thematic mapping settings:
 ```
 [In QGIS top menu] 
 Layer ▸ Properties ...
-
 or
-
-simply 'click right on safecast layer' and choose 'properties' item
+simply click right on 'safecast' layer and choose 'properties' item
+or 
+even simpler by double clicking on 'safecast' layer
 ```
 
 ### 3. Define thematic mapping settings
 
+To associate values measurements (in our case ionizing radion in counts per minute) with a colours you need to make the following choices:
+
+1. association rule: 'Graduated'
+2. column of the attribute table to be looked up: 'value'
+3. method to be used: 'Color'
+4. color ramp
+5. classification method and number of classes
 
 ![dialog](img/them-mapping-points-1.png)
+
+To choose the colour ramp:
+
+```
+1. Click 'Color ramp' selector ▸ 'New color ramp'
+2. Choose 'ColorBrewer'
+3. scheme name 'YlOrRd
+4. number of colors: 5
+```
+![palette](img/them-mapping-palette.png)
 
 
