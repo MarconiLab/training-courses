@@ -59,5 +59,23 @@ Vector ▸ Spatial Query ▸ Spatial Query
 ```
 ![spatial query dialog](img/spatial-query-dialog.png)
 
+```
+Click Apply
+```
+You should get another dialog listing all features (hexagons) selected. Notice as well that selected hexagons get highlighted in "yellow".
+
+![spatial query selection](img/spatial-query-selection.png)
+
+You need to save the selection as a new layer now:
+
+```
+1. Click right on 'grid' layer
+2. Save As 'exercises/grid_selection.shp'
+3. IMPORTANT: check 'Save only selected features' checkbox 
+```
+
+
+
+
 
 
