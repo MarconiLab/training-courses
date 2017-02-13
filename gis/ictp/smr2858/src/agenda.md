@@ -29,7 +29,7 @@ QGIS INTRO.
   * [Importing a georeferenced text file & overlaying it over Google Maps](importing-csv.md)
 
 THEMATIC MAPPING INTRO. WITH SAFECAST DATA
-  * [Punctual data mapping & overplotting](qgis-setup.md)
+  * [Punctual data mapping & overplotting](them-mapping-points.md)
 
 ## [Day 2](day2.md)
   * Recap. & finalizing day 1
