@@ -7,7 +7,7 @@ By the end of this module, you will know how to:
 * aggregating punctial data into grid cells (max, min, mean, ... value)
 * create a choropleth map of aggregated measurement values
 
-![Punctual data mapping](img/them-mapping-points-final.png)
+![Agg. data mapping](img/them-mapping-agg-final.png)
 
 ## Data
 Data to be used in this module can be found in the following folders:
