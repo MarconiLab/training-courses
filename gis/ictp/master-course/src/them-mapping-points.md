@@ -6,7 +6,7 @@ By the end of this module, you will know how to:
 * choose an appropriate color palette/ramp (choropleth map)
 * choose a data discretization method (data binning)
 
-![Data over OSM](img/data-over-osm.png)
+![Punctual data mapping](img/them-mapping-points-final.png)
 
 ## Data
 Data to be used in this module can be found in the following folders:
