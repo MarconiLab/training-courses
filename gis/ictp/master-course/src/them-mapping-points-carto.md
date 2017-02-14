@@ -1,9 +1,15 @@
-> [GIS fundamentals | Training Course](agenda.md) ▸ **Create & disseminate an animation of disease spread over time**
+> [GIS fundamentals | Training Course](agenda.md) ▸ **Basic thematic mapping of safecast data**
 
 ## Targeted skills
 By the end of this module, you will know:
-* create an animation of disease cases over time
-* disseminate your visualization to the web
+* how to create a simple thematic map of safecast data
+* how to use CARTO map layer wizard
+* how to style your map in an advanced way
+* how to add map interaction
+* how to disseminate your map online
+
+[Click to visualize CARTO thematic map to be created](https://franckalbinet.carto.com/viz/7cb58b78-ec86-11e6-ba7d-0e3ff518bd15/public_map)
+
 
 ## Data
 
@@ -13,58 +19,88 @@ the dataset uploaded in previous module
 
 ## Exercise outline & memos
 
-### 1. Creating an animation of disease cases over time
-
-Our goal here it to create an animation of animal disease cases registered. 
+### 1. Creating a simple thematic map - choropleth
 
 To create a new map:
 
 ```
 [From Carto Dashboard]
-Select "Your maps"
 
-From there simply click on button "NEW MAP" (top-right)
+1. Select "Your maps"
 
-Click on "bluetongue_carto" dataset and click on button "CREATE MAP" (bottom-righ)
+2. From there simply click on button "NEW MAP" (top-right)
 
-Rename your newly create map "bluetongue_disease_spread" by just clicking on
-top-left "Untitled Map" and writing the new one
+3. Click on the safecast dataset loaded in previous exercise and click on button "CREATE MAP" (bottom-right)
 
-Then on right panel, click the brush icon (tooltip showing "wizard" when hovering on it)
+4. Rename your newly created map "safecast_choro_point" by just clicking on "Untitled Map" input box (top-left)
 
-And after having clicled to "Torque" wizard, reproduce settings shown below:
+5. Then on right panel, click the brush icon (tooltip showing "wizard" when hovering on it)
+
+6. Choose "CHOROPLETH" tab and reproduce settings shown below:
 ```
 
-![heatmap settings](img/heatmap-carto-settings.png)
+![them. map points carto settings](img/them-mapping-carto-points.png)
 
-To get the proper color for "Marker Fill", click on the "colored box" and enter
-the following code: "#F11810"
+### 2. Adjust colour palette (advanced styling mode)
+One of the strong points of the CARTO application is the ability to use in both basic and advanced mode. The wizard mode will address your most common needs but if you want to have more control over your styling, data, interaction, ... you can do so.
 
-![heatmap settings color](img/heatmap-carto-settings-color.png)
+Here we will use our ability to specify in an highly granular way map styles. Here we will use an alternative colour scheme:
+[Viridis colour palette](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)
 
-Once done, you should get the following map:
+To customize the colour sheme, activate "CSS" tab in CARTO side toolbar and reproduce code below:
 
-![heatmap final](img/heatmap-carto-final.png)
+![advanced colour palette carto](avanced-colour-palette-carto.png)
 
-Obviously, this is a bit disappointing to share a static map considering that we
-have just created a compelling time animation of bluetongue spread from Feb. 2014 to Dec. 2015.
+```
+  #safecast_subset_2{
+    marker-fill-opacity: 0.4;
+    marker-line-color: #FFF;
+    marker-line-width: 0;
+    marker-line-opacity: 0;
+    marker-width: 6;
+    marker-fill: #FFFFB2;
+    marker-allow-overlap: true;
+  }
+  #safecast_subset_2 [ value <= 24282] {
+     marker-fill: #000004;
+  }
+  #safecast_subset_2 [ value <= 14230] {
+     marker-fill: #51127C;
+  }
+  #safecast_subset_2 [ value <= 8347] {
+     marker-fill: #B63679;
+  }
+  #safecast_subset_2 [ value <= 3856] {
+     marker-fill: #FB8861;
+  }
+  #safecast_subset_2 [ value <= 1938] {
+     marker-fill: #FCFDBF;
+  }
+```
 
-To share the animation, there is nothing simpler !
+Further resources:
+* (Khan Academy video on hexadecimal number system)[https://www.youtube.com/watch?v=4EJay-6Bioo]
+* (w3schools intro. to hexadecimal colour encoding)[https://www.w3schools.com/colors/colors_picker.asp]
 
-### 2. Disseminating your visualization to the web
+### 3. Add interactivity
+To add interactivity to your map when clicking or hovering on points of your map, simply
+activate "infowindow" tab in CARTO side toolbar and choose the information you would like to see in tooltip when
+hovering and clicking.
 
-To make your visualization accessible by the world:
+![carto interaction](carto-interaction.png)
+
+### 4. Disseminating your visualization to the web
+
+To share your visualization/map, there is nothing simpler:
 
 ```
 Click on "PUBLISH" link (top-right)
 
 Under "Get the link" section, simply copy (ctrl+c) the url provided 
-(in my case: https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/public_map)
+(in my case: https://franckalbinet.carto.com/viz/7cb58b78-ec86-11e6-ba7d-0e3ff518bd15/public_map)
 
 And share it via email with your colleague or/and open it on a new Browser window.
 ```
-
-[Click to see my version of the visualization](https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/public_map)
 
 To play around and explore the wealth of possible visualizations, go through the full
 Carto tutorials: [https://carto.com/docs/tutorials/](https://carto.com/docs/tutorials/)
