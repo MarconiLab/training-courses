@@ -6,7 +6,7 @@ By the end of this module, you will know:
 * how to use CARTO map layer wizard
 * how to disseminate your map online
 
-[CARTO thematic map of safecast data subset](https://franckalbinet.carto.com/viz/7cb58b78-ec86-11e6-ba7d-0e3ff518bd15/map)
+[Click to visualize CARTO thematic map to be created](https://franckalbinet.carto.com/viz/7cb58b78-ec86-11e6-ba7d-0e3ff518bd15/public_map)
 
 
 ## Data
