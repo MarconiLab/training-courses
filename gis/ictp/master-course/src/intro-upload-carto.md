@@ -3,7 +3,7 @@
 
 ## Targeted skills
 By the end of this module, you will know:
-* what is Carto 
+* what is CARTO 
 * and how to upload your dataset
 
 ## Data
@@ -17,7 +17,7 @@ data/
 
 ### 1. Introduction
 
-[Carto](https://carto.com/) (renamed recently - was CartoDB before), is a Software As A Service [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service). It means that once you have created an account, you gain full access to a set of technologies (database engine, map rendere, ...) in your web browser/navigator (Chrome, Firefox, ...) that you normally install in a dedicated server in your institution or in your own desktop. 
+[Carto](https://carto.com/) (renamed recently - was CartoDB before), is a Software As A Service [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service). It means that once you have created an account, you gain full access to a set of technologies (database engine, map renderer, ...) in your web browser/navigator (Chrome, Firefox, ...) that you normally install in a dedicated server in your institution or in your own desktop. 
 
 The advandage is that you don't need to install, maintain them, this is done by the Service provider. Obviously, you need to pay for this service. Hopefully, you can create a free account that will already allow you to create and disseminate your map/visualization through the web. 
 
