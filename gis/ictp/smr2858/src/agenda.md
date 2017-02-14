@@ -38,10 +38,13 @@ THEMATIC MAPPING INTRO. WITH SAFECAST DATA (CONTINUED)
   * [Addressing overplotting with spatial aggregation](them-mapping-aggregation.md)
 
 ONLINE MAPPING WITH CARTO
-  * [Online account - subscribing to free plan]()
-  * [Introduction & Safecast data upload](intro-upload-carto.md)
-  * [Basic thematic mapping](disease-spread-carto.md)
+  * [CARTO introduction & Safecast data upload](intro-upload-carto.md)
+  * [Basic thematic mapping](them-mapping-points-carto.md)
 
 ## [Day 3](day3.md)
   * Recap. & finalizing day 2
   * [Illustration of QGIS ▸ CARTO workflow](tbd)
+  * Custom map background (Mapbox & OpenStreetMap intro)
+  * Mapping data collected at ICTP-ICTP
+  * Data manipulation & cleaning (intro)
+  * append new measurements
