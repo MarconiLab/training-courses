@@ -1,9 +1,10 @@
-> [GIS fundamentals | Training Course](agenda.md) ▸ **Create & disseminate an animation of disease spread over time**
+> [GIS fundamentals | Training Course](agenda.md) ▸ **Basic thematic mapping of safecast data**
 
 ## Targeted skills
 By the end of this module, you will know:
-* create an animation of disease cases over time
-* disseminate your visualization to the web
+* how to create a simple thematic map of safecast data
+* how to use CARTO map layer wizard
+* how to disseminate your map online
 
 ## Data
 
@@ -13,9 +14,7 @@ the dataset uploaded in previous module
 
 ## Exercise outline & memos
 
-### 1. Creating an animation of disease cases over time
-
-Our goal here it to create an animation of animal disease cases registered. 
+### 1. Creating a simple thematic map - choropleth
 
 To create a new map:
 
