@@ -4,6 +4,8 @@
 By the end of this module, you will know:
 * how to create a simple thematic map of safecast data
 * how to use CARTO map layer wizard
+* how to style your map in an advanced way
+* how to add map interaction
 * how to disseminate your map online
 
 [Click to visualize CARTO thematic map to be created](https://franckalbinet.carto.com/viz/7cb58b78-ec86-11e6-ba7d-0e3ff518bd15/public_map)
@@ -39,24 +41,66 @@ To create a new map:
 
 ![them. map points carto settings](img/them-mapping-carto-points.png)
 
+### 2. Adjust colour palette (advanced styling mode)
+One of the strong points of the CARTO application is the ability to use in both basic and advanced mode. The wizard mode will address your most common needs but if you want to have more control over your styling, data, interaction, ... you can do so.
 
+Here we will use our ability to specify in an highly granular way map styles. Here we will use an alternative colour scheme:
+[Viridis colour palette](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)
 
-To share the animation, there is nothing simpler !
+To customize the colour sheme, activate "CSS" tab in CARTO side toolbar and reproduce code below:
 
-### 2. Disseminating your visualization to the web
+![advanced colour palette carto](avanced-colour-palette-carto.png)
 
-To make your visualization accessible by the world:
+```
+  #safecast_subset_2{
+    marker-fill-opacity: 0.4;
+    marker-line-color: #FFF;
+    marker-line-width: 0;
+    marker-line-opacity: 0;
+    marker-width: 6;
+    marker-fill: #FFFFB2;
+    marker-allow-overlap: true;
+  }
+  #safecast_subset_2 [ value <= 24282] {
+     marker-fill: #000004;
+  }
+  #safecast_subset_2 [ value <= 14230] {
+     marker-fill: #51127C;
+  }
+  #safecast_subset_2 [ value <= 8347] {
+     marker-fill: #B63679;
+  }
+  #safecast_subset_2 [ value <= 3856] {
+     marker-fill: #FB8861;
+  }
+  #safecast_subset_2 [ value <= 1938] {
+     marker-fill: #FCFDBF;
+  }
+```
+
+Further resources:
+* (Khan Academy video on hexadecimal number system)[https://www.youtube.com/watch?v=4EJay-6Bioo]
+* (w3schools intro. to hexadecimal colour encoding)[https://www.w3schools.com/colors/colors_picker.asp]
+
+### 3. Add interactivity
+To add interactivity to your map when clicking or hovering on points of your map, simply
+activate "infowindow" tab in CARTO side toolbar and choose the information you would like to see in tooltip when
+hovering and clicking.
+
+![carto interaction](carto-interaction.png)
+
+### 4. Disseminating your visualization to the web
+
+To share your visualization/map, there is nothing simpler:
 
 ```
 Click on "PUBLISH" link (top-right)
 
 Under "Get the link" section, simply copy (ctrl+c) the url provided 
-(in my case: https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/public_map)
+(in my case: https://franckalbinet.carto.com/viz/7cb58b78-ec86-11e6-ba7d-0e3ff518bd15/public_map)
 
 And share it via email with your colleague or/and open it on a new Browser window.
 ```
-
-[Click to see my version of the visualization](https://franckalbinet.carto.com/viz/d1957f20-8a31-11e6-a66c-0e05a8b3e3d7/public_map)
 
 To play around and explore the wealth of possible visualizations, go through the full
 Carto tutorials: [https://carto.com/docs/tutorials/](https://carto.com/docs/tutorials/)
