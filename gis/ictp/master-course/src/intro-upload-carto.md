@@ -42,7 +42,7 @@ Select "Your datasets"
 
 from there simply click on button "NEW DATASET" (top-right)
 
-drag and drop "bluetongue_carto.csv" file you will find under data/ folder
+drag and drop "safecast_subset.csv" file you will find under data/ folder
 
 and finally
 
