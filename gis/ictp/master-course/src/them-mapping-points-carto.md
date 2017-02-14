@@ -49,7 +49,7 @@ Here we will use our ability to specify in an highly granular way map styles. He
 
 To customize the colour sheme, activate "CSS" tab in CARTO side toolbar and reproduce code below:
 
-![advanced colour palette carto](avanced-colour-palette-carto.png)
+![advanced colour palette carto](img/avanced-colour-palette-carto.png)
 
 ```
   #safecast_subset_2{
@@ -87,7 +87,7 @@ To add interactivity to your map when clicking or hovering on points of your map
 activate "infowindow" tab in CARTO side toolbar and choose the information you would like to see in tooltip when
 hovering and clicking.
 
-![carto interaction](carto-interaction.png)
+![carto interaction](img/carto-interaction.png)
 
 ### 4. Disseminating your visualization to the web
 
