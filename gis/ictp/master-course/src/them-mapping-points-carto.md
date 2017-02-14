@@ -6,6 +6,8 @@ By the end of this module, you will know:
 * how to use CARTO map layer wizard
 * how to disseminate your map online
 
+<iframe width="100%" height="520" frameborder="0" src="https://franckalbinet.carto.com/viz/7cb58b78-ec86-11e6-ba7d-0e3ff518bd15/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
 ## Data
 
 ```
@@ -20,33 +22,23 @@ To create a new map:
 
 ```
 [From Carto Dashboard]
-Select "Your maps"
 
-From there simply click on button "NEW MAP" (top-right)
+1. Select "Your maps"
 
-Click on "bluetongue_carto" dataset and click on button "CREATE MAP" (bottom-righ)
+2. From there simply click on button "NEW MAP" (top-right)
 
-Rename your newly create map "bluetongue_disease_spread" by just clicking on
-top-left "Untitled Map" and writing the new one
+3. Click on the safecast dataset loaded in previous exercise and click on button "CREATE MAP" (bottom-right)
 
-Then on right panel, click the brush icon (tooltip showing "wizard" when hovering on it)
+4. Rename your newly created map "safecast_choro_point" by just clicking on "Untitled Map" input box (top-left)
 
-And after having clicled to "Torque" wizard, reproduce settings shown below:
+5. Then on right panel, click the brush icon (tooltip showing "wizard" when hovering on it)
+
+6. Choose "CHOROPLETH" tab and reproduce settings shown below:
 ```
 
-![heatmap settings](img/heatmap-carto-settings.png)
+![them. map points carto settings](img/them-mapping-carto-points.png)
 
-To get the proper color for "Marker Fill", click on the "colored box" and enter
-the following code: "#F11810"
 
-![heatmap settings color](img/heatmap-carto-settings-color.png)
-
-Once done, you should get the following map:
-
-![heatmap final](img/heatmap-carto-final.png)
-
-Obviously, this is a bit disappointing to share a static map considering that we
-have just created a compelling time animation of bluetongue spread from Feb. 2014 to Dec. 2015.
 
 To share the animation, there is nothing simpler !
 
