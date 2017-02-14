@@ -48,5 +48,7 @@ and finally
 
 click on "CONNECT DATASET" button (bottom-right)
 ```
-Your dataset is uploaded! Carto allows you to consider your dataset from two prespective/representations (as in QGIS): a tabular and map representations.
+Your dataset is uploaded! 
+
+Carto allows you to consider your dataset from two prespectives/representations (as in QGIS): as tabular data or map.
 
