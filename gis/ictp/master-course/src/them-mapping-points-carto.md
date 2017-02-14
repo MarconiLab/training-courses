@@ -79,8 +79,8 @@ To customize the colour sheme, activate "CSS" tab in CARTO side toolbar and repr
 ```
 
 Further resources:
-* (Khan Academy video on hexadecimal number system)[https://www.youtube.com/watch?v=4EJay-6Bioo]
-* (w3schools intro. to hexadecimal colour encoding)[https://www.w3schools.com/colors/colors_picker.asp]
+* [Khan Academy video on hexadecimal number system](https://www.youtube.com/watch?v=4EJay-6Bioo)
+* [w3schools intro. to hexadecimal colour encoding](https://www.w3schools.com/colors/colors_picker.asp)
 
 ### 3. Add interactivity
 To add interactivity to your map when clicking or hovering on points of your map, simply
