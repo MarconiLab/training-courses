@@ -8,6 +8,11 @@ cp ../master-course/src/resources.md ./src/
 cp ../master-course/src/qgis-setup.md ./src/
 cp ../master-course/src/handling-gis-layers.md ./src/
 cp ../master-course/src/importing-csv.md ./src/
+cp ../master-course/src/them-mapping-points.md ./src/
+cp ../master-course/src/them-mapping-aggregation.md ./src/
+cp ../master-course/src/intro-upload-carto.md ./src/
+cp ../master-course/src/them-mapping-points-carto.md ./src/
+
 echo "Source files (.md) files copied successfully!"
 
 # copy img
