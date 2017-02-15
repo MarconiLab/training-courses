@@ -1,12 +1,12 @@
 > [GIS fundamentals | Training Course](agenda.md) ▸ **Basic thematic mapping of safecast data**
 
 ## Targeted skills
-By the end of this module, you will know:
-* how to create a simple thematic map of safecast data
-* how to use CARTO map layer wizard
-* how to style your map in an advanced way
-* how to add map interaction
-* how to disseminate your map online
+By the end of this module, you will know how to:
+* create a simple thematic map of safecast data
+* use CARTO map layer wizard
+* style your map in an advanced way
+* add map interaction
+* disseminate your map online
 
 [Click to visualize CARTO thematic map to be created](https://franckalbinet.carto.com/viz/7cb58b78-ec86-11e6-ba7d-0e3ff518bd15/public_map)
 
