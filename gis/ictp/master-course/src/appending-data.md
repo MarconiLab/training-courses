@@ -2,73 +2,30 @@
 
 ## Targeted skills
 By the end of this module, you will know how to:
-* visualize quantitative data spatial distribution using colour visual encoding
-* choose an appropriate color palette/ramp (choropleth map)
-* choose a data discretization method (data binning)
+* add new measurements to an existing shapefile
+* import a shapefile into CARTO
+* append new measurements to an existing CARTO dataset
 
-![Punctual data mapping](img/them-mapping-points-final.png)
 
 ## Data
 Data to be used in this module can be found in the following folders:
 ```
-data/punctual_data
+data/appending_data
 ```
 ## Exercise outline & memos
 
-### 1. Open shapefile & background map
-Open:
-```
-data/punctual_data/safecast.shp
-```
+### 1. Open existing shapefile and import new measurements in QGIS
 
-and add a background map:
+Open in QGIS the following shapefile:
 ```
-[In QGIS top menu] 
-Web ▸ OpenLayers plugin ▸ OpenStreetMap ▸ OSM Humanitarian Data Model
+data/appending_data/safecast_part1.shp
 ```
 
-### 2. Access thematic mapping settings
-
-To open the dialog including thematic mapping settings:
-
+Import new measurements:
 ```
-[In QGIS top menu] 
-Layer ▸ Properties ...
-or
-simply click right on 'safecast' layer and choose 'properties' item
-or 
-even simpler by double clicking on 'safecast' layer
+data/appending_data/new_data.csv
 ```
+and save it as shapefile as explained in a [previous exercise](importing-csv.md)
 
-### 3. Define thematic mapping settings
-
-To associate values measurements (in our case ionizing radion in counts per minute) with a colours you need to make the following choices:
-
-1. association rule: 'Graduated'
-2. column of the attribute table to be looked up: 'value'
-3. method to be used: 'Color'
-4. color ramp
-5. classification method and number of classes
-
-![dialog](img/them-mapping-points-1.png)
-
-To choose the colour ramp:
-
-```
-1. Click 'Color ramp' selector ▸ 'New color ramp'
-2. Choose 'ColorBrewer'
-3. scheme name 'YlOrRd'
-4. number of colors: 5
-```
-![palette](img/them-mapping-palette.png)
-
-### 5. Fine-tuning
-At this stage all ingredients are in place but polishing is still required:
-
-1. tweak symbol size: for instance 1.5
-2. make symbol outline (contour) transparent
-3. add transparency to the marker fill as well 40-50%
-
-These last steps are justified in order to prevent or at least minimize the issue of [overplotting](https://www.perceptualedge.com/articles/visual_business_intelligence/over-plotting_in_graphs.pdf). 
-
+### 2. Merge shapefiles
 
