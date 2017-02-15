@@ -43,8 +43,8 @@ ONLINE MAPPING WITH CARTO
 
 ## [Day 3](day3.md)
   * Recap. & finalizing day 2
-  * [Illustration of QGIS ▸ CARTO workflow](tbd)
-  * Custom map background (Mapbox & OpenStreetMap intro)
-  * Mapping data collected at ICTP-ICTP
+  * Practicing with your own data
+  * [Adding data to a shapefile in QGIS and in CARTO](appending-data.md)
+  * [Illustration of QGIS ▸ CARTO workflow](qgis-carto-workflow.md)
+  * Custom map background (Mapbox & OpenStreetMap) briefing
   * Data manipulation & cleaning (intro)
-  * append new measurements
