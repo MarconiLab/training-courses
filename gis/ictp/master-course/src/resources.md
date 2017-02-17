@@ -31,3 +31,5 @@
 * [QGIS User Interface Overview: Top Toolbars, Map Canvas, Layers list, Status Bar and side toolbar](https://docs.qgis.org/2.2/en/docs/training_manual/introduction/overview.html)
 * [Shapefile](https://en.wikipedia.org/wiki/Shapefile)
 
+## GEODATASCIENCE
+* A course taught by Dr. Dani Arribas-Bel in the Autumn of 2016 at the University of Liverpool. [http://darribas.org/gds16/](http://darribas.org/gds16/)

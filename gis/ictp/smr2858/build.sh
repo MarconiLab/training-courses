@@ -7,6 +7,7 @@
 cp ../master-course/src/resources.md ./src/
 cp ../master-course/src/qgis-setup.md ./src/
 cp ../master-course/src/handling-gis-layers.md ./src/
+cp ../master-course/src/handling-crs.md ./src/
 cp ../master-course/src/importing-csv.md ./src/
 cp ../master-course/src/them-mapping-points.md ./src/
 cp ../master-course/src/them-mapping-aggregation.md ./src/

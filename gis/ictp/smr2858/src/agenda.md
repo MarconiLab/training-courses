@@ -48,5 +48,6 @@ ONLINE MAPPING WITH CARTO
 [OPTIONAL]
   * [Adding data to a shapefile in QGIS and in CARTO](appending-data.md)
   * [Illustration of QGIS ▸ CARTO workflow](qgis-carto-workflow.md)
-  * Custom map background (Mapbox & OpenStreetMap) briefing
-  * Data manipulation & cleaning (intro)
+  * Custom map background with Mapbox & OpenStreetMap: a briefing & intro
+  * Data wrangling & cleaning: a briefing & intro
+  * ...
