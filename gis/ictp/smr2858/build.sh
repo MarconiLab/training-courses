@@ -12,6 +12,8 @@ cp ../master-course/src/them-mapping-points.md ./src/
 cp ../master-course/src/them-mapping-aggregation.md ./src/
 cp ../master-course/src/intro-upload-carto.md ./src/
 cp ../master-course/src/them-mapping-points-carto.md ./src/
+cp ../master-course/src/appending-data.md ./src/
+
 
 echo "Source files (.md) files copied successfully!"
 
