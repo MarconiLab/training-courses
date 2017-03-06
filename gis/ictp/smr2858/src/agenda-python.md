@@ -3,9 +3,9 @@
 **LAB: PYTHON BASICS, MARCH 2017**
 
 * [Setup & resources](python-setup.md)
-* [I. Standard Python](python-basics.md)
-* [II. Importing Data](python-import.md)
-* Descriptive statistics & data vis.
+* [I. Python foundations](1-python-foundations.md)
+* [II. Exploratory Data Analysis with Pandas](2-python-eda-with-pandas.md)
+* [III. Fetching Safecast data with Python](3-using-safecast-api.md)
 * Python & GIS
 * More resources
  
