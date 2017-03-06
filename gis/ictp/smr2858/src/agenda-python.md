@@ -12,7 +12,7 @@ Fundamental Python concepts covered:
 
 * Lab. objectives & setup 
 * Standard Python basics 
-* Intro. to the 'PyData' stack
+* Intro. to the "PyData" stack
 * Importing data (reading csv files and fetching data from Safecast API)
 * Descriptive statistics & data vis.
 * Python & GIS
