@@ -4,7 +4,8 @@
 
 ```
 Fundamental Python concepts covered:
-  - Notions of types, expressions, variables, data structures, functions, control structures
+  - literals, variables, types, data structures
+  - expressions, functions, control structures
   - Python ecosystem for data science & GIS
   - Data import
 
