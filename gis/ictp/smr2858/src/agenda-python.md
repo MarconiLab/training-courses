@@ -1,6 +1,6 @@
-> [Python Introduction | Training Course](agenda-python.md) ▸ **Agenda**
+> [Python Basics | Training Course](agenda-python.md) ▸ **Agenda**
 
-**LAB: PYTHON INTRODUCTION, MARCH 2017**
+**LAB: PYTHON BASICS, MARCH 2017**
 
 ```
 Fundamental Python concepts covered:
@@ -11,10 +11,9 @@ Fundamental Python concepts covered:
 
 ```
 
-* Lab. objectives & setup 
-* [Standard Python basics](python-basics.md)
-* Intro. to the "PyData" stack
-* Importing data (reading csv files and fetching data from Safecast API)
+* [0. Setup & resources](python-setup.md)
+* [I. Standard Python](python-basics.md)
+* [II. Importing Data](python-import.md)
 * Descriptive statistics & data vis.
 * Python & GIS
 * More resources
