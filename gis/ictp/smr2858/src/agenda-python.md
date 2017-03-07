@@ -5,7 +5,7 @@
 * [Setup & resources](python-setup.md)
 * [I. Python foundations](../notebooks/1-python-foundations.ipynb)
 * [II. Exploratory Data Analysis with Pandas](../notebooks/2-python-eda-with-pandas.ipynb)
-* [III. Fetching Safecast data with Python](../notebooks/3-using-safecast-api.ipynb)
+* [III. Fetching Safecast data with Python](../notebooks/3-fetching-safecast-data.ipynb)
 * [IV. Python & GIS](../notebooks/4-gis-and-mapping.ipynb)
 
  
