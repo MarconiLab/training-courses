@@ -6,6 +6,6 @@
 * [I. Python foundations](1-python-foundations.md)
 * [II. Exploratory Data Analysis with Pandas](2-python-eda-with-pandas.md)
 * [III. Fetching Safecast data with Python](3-using-safecast-api.md)
-* Python & GIS
+* [IV. Python & GIS](4-gis-and-mapping.md)
 * More resources
  
