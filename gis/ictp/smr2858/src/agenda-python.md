@@ -1,20 +1,11 @@
-> [Python Introduction | Training Course](agenda-python.md) ▸ **Agenda**
+> [Python Basics | Training Course](agenda-python.md) ▸ **Agenda**
 
-**LAB: PYTHON INTRODUCTION, MARCH 2017**
+**LAB: PYTHON BASICS, MARCH 2017**
 
-```
-Fundamental Python concepts covered:
-  - Notions of types, expressions, variables, data structures, functions, control structures
-  - Python ecosystem for data science & GIS
-  - Data import
-
-```
-
-* Lab. objectives & setup 
-* [Standard Python basics](python-basics.md)
-* Intro. to the "PyData" stack
-* Importing data (reading csv files and fetching data from Safecast API)
-* Descriptive statistics & data vis.
-* Python & GIS
+* [Setup & resources](python-setup.md)
+* [I. Python foundations](1-python-foundations.md)
+* [II. Exploratory Data Analysis with Pandas](2-python-eda-with-pandas.md)
+* [III. Fetching Safecast data with Python](3-using-safecast-api.md)
+* [IV. Python & GIS](4-gis-and-mapping.md)
 * More resources
  
