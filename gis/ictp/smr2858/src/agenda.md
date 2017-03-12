@@ -44,10 +44,3 @@ ONLINE MAPPING WITH CARTO
 ## [Day 3](day3.md)
   * Recap. & finalizing day 2
   * PRACTICING WITH YOUR OWN DATA
-
-[OPTIONAL]
-  * [Adding data to a shapefile in QGIS and in CARTO](appending-data.md)
-  * [Illustration of QGIS ▸ CARTO workflow](qgis-carto-workflow.md)
-  * Custom map background with Mapbox & OpenStreetMap: a briefing & intro
-  * Data wrangling & cleaning: a briefing & intro
-  * ...

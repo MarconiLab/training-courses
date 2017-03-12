@@ -13,7 +13,7 @@ cp ../master-course/src/them-mapping-points.md ./src/
 cp ../master-course/src/them-mapping-aggregation.md ./src/
 cp ../master-course/src/intro-upload-carto.md ./src/
 cp ../master-course/src/them-mapping-points-carto.md ./src/
-cp ../master-course/src/appending-data.md ./src/
+# cp ../master-course/src/appending-data.md ./src/
 echo "Source files (.md) files copied successfully!"
 
 # copy python courses
@@ -22,7 +22,7 @@ echo "Data for Jupyter notebooks copied successfully!"
 cp ../master-course/notebooks/1-python-foundations.ipynb notebooks
 cp ../master-course/notebooks/2-python-eda-with-pandas.ipynb notebooks
 cp ../master-course/notebooks/3-fetching-safecast-data.ipynb notebooks
-cp ../master-course/notebooks/4-gis-and-mapping.ipynb notebooks
+# cp ../master-course/notebooks/4-gis-and-mapping.ipynb notebooks
 echo "Jupyter notebooks copied successfully!"
 
 # copy img
