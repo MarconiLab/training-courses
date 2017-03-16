@@ -1,7 +1,7 @@
 > [Python Introduction | Training Course](agenda.md) ▸  **Resources**
 
 ### PYTHON 'OFFICIAL' DOCUMENTATION
-* Python web site [https://www.python.org/doc/]
+* Python web site (https://www.python.org/doc/])[https://www.python.org/doc/]
 * Python tutorial [https://docs.python.org/2/tutorial/]
 
 ### ANACONDA
